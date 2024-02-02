@@ -60,10 +60,7 @@
                         display: none; /* Initially hide the .hii menu */
                         
                     }
-            
-                    .categories:hover .hii {
-                        display: block; /* Show the .hii menu on hover */
-                    }
+       
                    
         
                 
@@ -76,7 +73,7 @@
 <nav class="navr">
     <menu type="toolbar" id="categories-menu">
       <menuitem label="drop">
-       <span class="mainc Mane" id="categoriesBtn">CATEGORIES</span>
+       <span class="mainc Mane" id="categoriesBtn" onclick="toggleCategory()">CATEGORIES</span>
   
         <menu class="hii">
           <!-- <menuitem label="about"><a href="#">about</a></menuitem> -->
@@ -241,6 +238,7 @@
 
 
                         <div class="dropdown dropdown-course" >
+                            <button class="dropdown-close-btn" onclick="closeFunction()"><i class="fa-solid fa-xmark"></i></button>
                             <div class="course-detail-section">
                                 <div class="course-left-section">
 
@@ -902,6 +900,7 @@
                             </li>
 
                             <div class="dropdown dropdown-course TRAI-ning" id="trainingDropdown">
+                                <button class="dropdown-close-btn" onclick="closeFunction()"><i class="fa-solid fa-xmark"></i></button>
                                 <div class="course-detail-section " id="CAD">
 
 
@@ -1004,9 +1003,6 @@
 
         </div>
     </nav>
-
-
-
 
 
 

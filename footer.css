@@ -62,24 +62,31 @@
   .footer-fixed-section h3,
   .footer-fixed-section i {
     font-size: 10px !important;
+    margin: 0 0px 0 5px;
   }
   .footer-fixed-section {
     height: 30px;
-    bottom: -1px;
+    bottom: -2px;
   }
 }
 @media screen and (max-width: 900px) {
   hr{
     display: none !important;
   }
-
+  .fixed-section-child {
+    column-gap: 0px;
+   
+}
 }
 @media screen and (max-width: 320px) {
+  .ail1{
+    display: none;
+  }
   hr{
     display: none !important;
   }
     .footer-fixed-section {
-    width: 320px;
+      width: -webkit-fill-available;
   }
   
   .ask-for-demo{

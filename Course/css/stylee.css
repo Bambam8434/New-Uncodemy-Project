@@ -5,6 +5,15 @@ ul {
   padding: 0;
   margin: 0;
 }
+
+
+.dropdown-close-btn
+  {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+
 .above-line,
 .above-line-alumni,
 .learner-number,
@@ -160,9 +169,9 @@ nav::after {
   min-height: 475px;
   border-bottom: 1px solid #000;
 }
-.dropdown:hover {
+/* .dropdown:hover {
   display: block !important;
-}
+} */
 .hamburger {
   position: absolute;
   right: 15px;
@@ -1784,7 +1793,7 @@ footer {
 }
 .page-navigation ul {
   display: flex;
-  column-gap: 20px;
+  column-gap: 15px;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 0;

@@ -627,9 +627,9 @@ pre code {
 }
 @media (min-width: 1000px) {
   .course-video img {
-    max-height: 20rem !important;
-    max-width: 24rem !important;
-    margin: -20px -7rem 40px -18rem !important;
+    max-height: 19rem !important;
+    max-width: 21rem !important;
+    margin: -20px -7rem 40px -22rem !important;
 }
 }
 @media (min-width: 1300px) {
@@ -7867,6 +7867,8 @@ h6 {
   p {
     font-size: 16px !important;
     text-align: justify !important;
+    font-weight:normal !important; 
+
   }
   form {
     margin-top: -2rem !important;
@@ -8062,7 +8064,7 @@ h6 {
     margin: 20px 0 0 -1px !important;
   }
   .duration .tab-industry .nav-tabs {
-    margin: 19rem 0 0 !important;
+    margin: 0 !important;
   }
   .en {
     font-size: 8px !important;
@@ -8310,6 +8312,10 @@ small {
   color: rgb(24 4 245 / 77%) !important;
 }
 @media screen and (max-width: 900px) {
+  .data p,#main p{
+    font-size: 16px !important;
+    font-weight: 550 !important;
+  }
   .footer {
     margin:auto;
 }
@@ -8372,7 +8378,7 @@ small {
     border-radius: 1rem;
   }
   .duration .tab-industry .nav-tabs {
-    margin: 12rem 0 0;
+    margin:0 !important;
   }
   #pg-program-cohorts-section,
   #pg-program-cohorts-section h2,
@@ -10458,3 +10464,8 @@ table.table.table-bordered {
   color:black !important;
   width: 45vw;
 }
+/* @media (min-width: 768px){
+.container {
+  max-width:100% !important;
+}
+} */

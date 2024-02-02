@@ -103,16 +103,13 @@
     <div class="page-navigation"
         style="position: fixed; top:-2px; display: none; border-bottom: 1px solid black; z-index: 9; background-color: white; width: 100vw; padding: 10px;">
         <ul>
-            <li class="page-navigation-btn">Placed Student</li>
-            <li class="page-navigation-btn">Curriculum</li>
-
-            <li class="page-navigation-btn">Know Uncodemy</li>
-
-            <li class="page-navigation-btn">Instructors</li>
-            <li class="page-navigation-btn">Industry Project</li>
-
-            <li class="page-navigation-btn">Reviews</li>
-            <li class="page-navigation-btn">Special Schedule</li>
+            <li class="page-navigation-btn"data-target="placed-candidates">Placed Student</li>
+            <li class="page-navigation-btn"data-target="curriculum">Curriculum</li>
+            <li class="page-navigation-btn"data-target="know-uncodemy">Know Uncodemy</li>
+            <li class="page-navigation-btn"data-target="instructor">Instructors</li>
+            <li class="page-navigation-btn"data-target="industry-project">Industry Project</li>
+            <li class="page-navigation-btn"data-target="reviews">Reviews</li>
+            <li class="page-navigation-btn"data-target="schedules">Special Schedule</li>
             <a target="_blank" download onclick="showForm(), setDownload('DigitalMarketingBtn')">
                 <li class="page">Download Brochure</li>
             </a>
@@ -926,7 +923,7 @@ text-align: start; font-weight: 500;" class=" ">4. Content Marketing</p>
                         </div>
                         <div class="big-box">
                             <ul>
-                                <li><img src="/img/tools.png" alt="15 Tools and Software - best tools for data science">
+                                <li><img src="/img/tools.png" alt="Tools logo">
                                 </li>
                                 <li> <span>15</span>
                                     <p>Tools and Software
@@ -1674,98 +1671,110 @@ text-align: start; font-weight: 500;" class=" ">4. Content Marketing</p>
                 <!-- <h6 style="color: #FF5421;" class="d-inline-block position-relative  text-capitalize mb-5">Tools and Technologies Coverd</h6> -->
             </div>
 
-            <div class="technologies">
+             <div class="technologies">
 
 
                 <ul>
                     <li>
-                        <img src="/img/tools/Excel.jpg" alt="Excel">
-                        <h3>Excel</h3>
+                        <img src="/img/tools/ahrefs.jpg" alt="ahrefs">
+                        <h3>ahrefs</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Tableau.png" alt="Tableau">
-                        <h3>Tableau</h3>
+                        <img src="/img/tools/semrush.png" alt="semrush">
+                        <h3>semrush</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Power-BI-Symbol.png" alt="Power-Bi">
-                        <h3>Power-Bi</h3>
+                        <img src="/img/tools/kwfinder.png" alt="kwfinder">
+                        <h3>kwfinder</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/ggplot.png" alt="ggplot">
-                        <h3>ggplot</h3>
+                        <img src="/img/tools/KeywordTool.png" alt="KeywordTool">
+                        <h3>KeywordTool</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Jupyter.png" alt="Jupyter">
-                        <h3>Jupyter</h3>
+                        <img src="/img/tools/ubbersuggest.jpg" alt="ubbersuggest">
+                        <h3>ubbersuggest</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Numpy .png" alt="Numpy">
-                        <h3>Numpy</h3>
+                        <img src="/img/tools/wordai.jpg" alt="Wordai">
+                        <h3>Wordai</h3>
                     </li>
                     <li>
-                        <img class="python" src="/img/tools/Python.jpg" alt="Python">
-                        <h3>Python</h3>
+                        <img   src="/img/tools/moz.png" alt="Moz">
+                        <h3>Moz</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Pandas.png" alt="Pandas">
-                        <h3>Pandas</h3>
+                        <img src="/img/tools/spyfu.jpg" alt="Spyfu">
+                        <h3>Spyfu</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Seaborn .jpg" alt="Seaborn">
-                        <h3>Seaborn</h3>
+                        <img src="/img/tools/majestic.png" alt="majestic">
+                        <h3>Majestic</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/looker.png" alt="Looker">
-                        <h3>Looker</h3>
+                        <img src="/img/tools/canva.png" alt="canva">
+                        <h3>Canva</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Matplotlib-logo.png" alt="Matplotlib">
-                        <h3>Matplotlib</h3>
+                        <img src="/img/tools/grammerly.png" alt="grammerly">
+                        <h3>Grammerly</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/PyCharm.png" alt="PyCharm">
-                        <h3>PyCharm</h3>
+                        <img src="/img/tools/woorank.png" alt="Woorank">
+                        <h3>Woorank</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Google Colab.jpg" alt="Google Colab">
-                        <h3>Google Colab</h3>
+                        <img   src="/img/tools/GOGLE-KEYWORD-PLANNER.jpg" alt="Google Keyword planner">
+                        <h3>keyword palnner</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Anaconda.jpg" alt="Anaconda">
-                        <h3>Anaconda</h3>
+                        <img   src="/img/tools/google analytics.png" alt="Google analytics">
+                        <h3>Google analytics</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/NLTK.png" alt="NLTK">
-                        <h3>NLTK</h3>
+                        <img src="/img/tools/mailchimps.jpg" alt="Mailchimp">
+                        <h3>Mailchimp</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Scikit-learn.png" alt="Scikit-learn">
-                        <h3>Scikit-learn</h3>
+                        <img src="/img/tools/Seo1.jpg" alt="SEO">
+                        <h3>SEO</h3>
+                    </li><li>
+                        <img src="/img/tools/yoast-seo.png" alt="Yoast seo">
+                        <h3>yoast-seo</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/SQL.png" alt="SQL">
-                        <h3>SQL</h3>
+                        <img src="/img/tools/facebook-icon-2.png" alt="Facebook">
+                        <h3>Facebook</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/MySql.png" alt="MySql">
-                        <h3>MySql</h3>
+                        <img src="/img/tools/Instagram_logo_2016.svg.webp" alt="Instagram">
+                        <h3>Instagram</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/PostgreSQL.png" alt="PostgreSQL">
-                        <h3>PostgreSQL</h3>
+                        <img src="/img/tools/linkdin.png" alt="LinkedIn">
+                        <h3>LinkedIn</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/ML.jpg" alt="ML">
-                        <h3>ML</h3>
+                        <img src="/img/tools/youtube.png" alt="youtube">
+                        <h3>youtube</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Deep Learning.png" alt="Deep Learning">
-                        <h3>Deep Learning</h3>
+                        <img src="/img/tools/search console.png" alt="Search console">
+                        <h3>Search Console</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/NLP.jpg" alt="NLP">
-                        <h3>NLP</h3>
+                        <img src="/img/tools/google trends.png" alt="Google Trends">
+                        <h3>Google Trends</h3>
                     </li>
+                    <li>
+                        <img src="/img/tools/google-ads.png" alt="Google Ads">
+                        <h3>Google Ads</h3>
+                    </li>
+                    <li>
+                        <img src="/img/tools/wordpress.png" alt="WordPress">
+                        <h3>WordPress</h3>
+                    </li>
+                     
                 </ul>
 
                 <div class="apply-btn ">
@@ -2186,7 +2195,7 @@ anyone can be easily placed in the companies like CISCO, Adobe, McKinsey and
 
 
             <section style="background-color: none !important;" id="fees" class="pd">
-                <div style=" background-color:transparent" class="residents"><div class="container-fluid"><div class="row"><div class="col-xl-7 col-lg-6 col-md-6 col-12"><div class="place-heading col-flex"><h2 style="color:black;"> Uncodemy </h2><p class="Acce">Access unparalleled learning with live sessions, recordings, assignments, and live projects led by a top-tier mentor and industry expert trainer. Elevate your skills with the best-in-class educational content.</p><button style="color:rgb(247, 5, 5); " type="button" class="fill-btn" data-toggle="modal" onclick="showForm()">Apply Now</button>
+                <div style=" background-color:transparent" class="residents"><div class="container-fluid"><div class="row"><div class="col-xl-7 col-lg-6 col-md-6 col-12"><div class="place-heading col-flex"><h2 style="color:black;"> Uncodemy </h2><p class="Acce">Access unparalleled learning with live sessions, recordings, assignments, and live projects led by a top-tier mentor and industry expert trainer. Elevate your skills with the best-in-class educational content.</p><button style="color:rgb(247, 5, 5); " type="button" class="fill-btn" data-toggle="modal" download onclick="showForm(), setDownload('DigitalMarketingBtn')">Apply Now</button>
                                 </div>
                             </div>
                             <div class="col-xl-5 col-lg-6 col-md-6 col-12 ">
@@ -2259,13 +2268,13 @@ anyone can be easily placed in the companies like CISCO, Adobe, McKinsey and
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center">
+                 <div class="row justify-content-center">
 
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="shadow">
                             <div class="inst">
                                 <img style="height: 10rem !important; max-width: none !important;"
-                                    src="/image/akshay.jpeg" alt="Dr. Deepika Sharma - Training Head, DataTrained">
+                                    src="/image/akshay.jpeg" alt="Instructor Image">
                                 <h3>Akshay Mishra </h3>
                                 <h3> Digital Marketing Specialist | Google Adwords | Technical SEO | SEO Expert | SEO
                                     Specialist | Email Marketing Expert</h3>
@@ -2299,7 +2308,7 @@ anyone can be easily placed in the companies like CISCO, Adobe, McKinsey and
                         <div class="shadow">
                             <div class="inst">
                                 <img style="height: 10rem !important; max-width: none !important;"
-                                    src="/image/muskan.jpeg" alt="Dr. Deepika Sharma - Training Head, DataTrained">
+                                    src="/image/muskan.jpeg" alt="Instructor Image">
                                 <h3>Muskan Choudhary </h3>
                                 <h3> Digital Marketing Specialist | Google Adwords | Technical SEO | SEO Expert | SEO
                                     Specialist | Email Marketing Expert</h3>
@@ -2314,6 +2323,35 @@ anyone can be easily placed in the companies like CISCO, Adobe, McKinsey and
                                     strategies, including YouTube marketing, Facebook Ads, Google Ads, SEO services, and
                                     more. My constant endeavor is to explore optimal pathways for comprehending the
                                     principles of growth, improvement, and transformation.
+
+
+
+
+                                </span>
+
+                                <a class="read re glow-on-hover glo navScollAt">Read more</a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="shadow">
+                            <div class="inst">
+                                <img style="height: 10rem !important; max-width: none !important;"
+                                    src="/image/pradyumn.jpg" alt="Instructor Image">
+                                <h3>Mr. Pradyumn Singh</h3>
+                                <h3>Head of Training & Placement</h3>
+                            </div>
+                            <div class="post po">
+                                Pradyumn Singh, the Head of Training & Placement at Uncodemy. With 8 years of expertise,
+                                he has led Software Testing, Development,
+                                <span class="dots">...</span>
+                                <span class="more">and Digital Marketing teams. Currently, Pradyumn directs his focus on
+                                    ensuring top-quality training at Uncodemy and facilitating successful student
+                                    placements. A seasoned professional with a strategic vision, he plays a pivotal role
+                                    in shaping the educational and career paths of aspiring individuals at Uncodemy.
 
 
 

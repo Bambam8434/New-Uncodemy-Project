@@ -101,16 +101,13 @@
     <div class="page-navigation"
         style="position: fixed; top:-2px; display: none; border-bottom: 1px solid black; z-index: 9; background-color: white; width: 100vw; padding: 10px;">
         <ul>
-            <li class="page-navigation-btn">Placed Student</li>
-            <li class="page-navigation-btn">Curriculum</li>
-
-            <li class="page-navigation-btn">Know Uncodemy</li>
-
-            <li class="page-navigation-btn">Instructors</li>
-            <li class="page-navigation-btn">Industry Project</li>
-
-            <li class="page-navigation-btn">Reviews</li>
-            <li class="page-navigation-btn">Special Schedule</li>
+            <li class="page-navigation-btn"data-target="placed-candidates">Placed Student</li>
+            <li class="page-navigation-btn"data-target="curriculum">Curriculum</li>
+            <li class="page-navigation-btn"data-target="know-uncodemy">Know Uncodemy</li>
+            <li class="page-navigation-btn"data-target="instructor">Instructors</li>
+            <li class="page-navigation-btn"data-target="industry-project">Industry Project</li>
+            <li class="page-navigation-btn"data-target="reviews">Reviews</li>
+            <li class="page-navigation-btn"data-target="schedules">Special Schedule</li>
             <a target="_blank" download onclick="showForm(), setDownload('FullStackBtn')">
                 <li class="page">Download Brochure</li>
             </a>
@@ -928,7 +925,7 @@ font-weight: 500;" class=" ">Experience letter.
                         </div>
                         <div class="big-box">
                             <ul>
-                                <li><img src="/img/tools.png" alt="15 Tools and Software - best tools for data science">
+                                <li><img src="/img/tools.png" alt="Tools logo">
                                 </li>
                                 <li>
                                     <span>15</span>
@@ -966,7 +963,7 @@ font-weight: 500;" class=" ">Experience letter.
                         </div>
                         <div class="sy-img-con">
                             <div class="syllabus-img">
-                                <img src="/img/tools.png" alt="15 Tools and Software - best tools for data science">
+                                <img src="/img/tools.png" alt="Tools logo">
                             </div>
                             <div class="syllabus-content">
                                 <span>12+</span>
@@ -1867,7 +1864,7 @@ font-weight: 500;" class=" ">Experience letter.
                         <h3>Pandas</h3>
                     </li>
                     <li>
-                        <img class="python" src="/img/tools/sublimetext.png" alt="sublimetext">
+                        <img src="/img/tools/sublimetext.png" alt="sublimetext">
                         <h3>sublimetext</h3>
                     </li>
                     <li>
@@ -2294,7 +2291,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
 
 
             <section style="background-color: none !important;" id="fees" class="pd">
-                <div style=" background-color:transparent" class="residents"><div class="container-fluid"><div class="row"><div class="col-xl-7 col-lg-6 col-md-6 col-12"><div class="place-heading col-flex"><h2 style="color:black;"> Uncodemy </h2><p class="Acce">Access unparalleled learning with live sessions, recordings, assignments, and live projects led by a top-tier mentor and industry expert trainer. Elevate your skills with the best-in-class educational content.</p><button style="color:rgb(247, 5, 5); " type="button" class="fill-btn" data-toggle="modal" onclick="showForm()">Apply Now</button>
+                <div style=" background-color:transparent" class="residents"><div class="container-fluid"><div class="row"><div class="col-xl-7 col-lg-6 col-md-6 col-12"><div class="place-heading col-flex"><h2 style="color:black;"> Uncodemy </h2><p class="Acce">Access unparalleled learning with live sessions, recordings, assignments, and live projects led by a top-tier mentor and industry expert trainer. Elevate your skills with the best-in-class educational content.</p><button style="color:rgb(247, 5, 5); " type="button" class="fill-btn" data-toggle="modal" download onclick="showForm(), setDownload('FullStackBtn')">Apply Now</button>
                                 </div>
                             </div>
                             <div class="col-xl-5 col-lg-6 col-md-6 col-12 ">
@@ -2372,7 +2369,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                         <div class="shadow">
                             <div class="inst">
                                 <img style="height: 10rem !important; max-width: none !important;" src="/img/placement/sonal2.jpeg"
-                                    alt="Dr. Deepika Sharma - Training Head, DataTrained">
+                                    alt="Instructor Images">
                                 <h3>Ms. Sonal Rana</h3>
                                 <h3>Full Stack Development | Core & Advance Java | Spring MVC | Angular | Reactjs | MySQL</h3>
                             </div>
@@ -2399,7 +2396,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                         <div class="shadow">
                             <div class="inst">
                                 <img style="height: 10rem !important; max-width: none !important;"
-                                    src="/image/rajesh.jpg" alt="Dr. Deepika Sharma - Training Head, DataTrained">
+                                    src="/image/rajesh.jpg" alt="Instructor Images">
                                 <h3>Mr. Rajesh Kumar Mandal </h3>
                                 <h3> Full Stack Development | Express.js | React.js | Node.js | JavaScript | Python | Django | Flask </h3>
                             </div>
@@ -2428,7 +2425,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                         <div class="shadow">
                             <div class="inst">
                                 <img style="height: 10rem !important; max-width: none !important;" src="/image/bambam.jpg"
-                                    alt="Dr. Deepika Sharma - Training Head, DataTrained">
+                                    alt="Instructor Images">
                                 <h3>Mr. Bambam Kumar Yadav</h3>
                                 <h3> Full Stack Development | Express.js | React.js | Node.js | JavaScript | Python | Django | Flask </h3>
                             </div>
@@ -2458,7 +2455,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                         <div class="shadow">
                             <div class="inst">
                                 <img style="height: 10rem !important; max-width: none !important;"
-                                    src="/image/snehank.jpg" alt="Dr. Deepika Sharma - Training Head, DataTrained">
+                                    src="/image/snehank.jpg" alt="Instructor Images">
                                 <h3>Mr. Snehank Singh                                </h3>
                                 <h3>Wordpress Developer | Custom Plugin | Express.js | React.js | Node.js | JavaScript |                                 </h3>
                             </div>
@@ -2487,7 +2484,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                         <div class="shadow">
                             <div class="inst">
                                 <img style="height: 10rem !important; max-width: none !important;"
-                                    src="/image/pradyumn.jpg" alt="Dr. Deepika Sharma - Training Head, DataTrained">
+                                    src="/image/pradyumn.jpg" alt="Instructor Images">
                                 <h3>Mr. Pradyumn Singh</h3>
                                 <h3>Head of Training & Placement</h3>
                             </div>
@@ -2512,7 +2509,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                         <div class="shadow">
                             <div class="inst">
                                 <img style="height: 10rem !important; max-width: none !important;"
-                                    src="/image/trainer-priyanka.jpg" alt="Dr. Deepika Sharma - Training Head, DataTrained">
+                                    src="/image/trainer-priyanka.jpg" alt="Instructor Images">
                                 <h3>Ms. Priyanka</h3>
                                 <h3>Head of the HR & Placement </h3>
                             </div>

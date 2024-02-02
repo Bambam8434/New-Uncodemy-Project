@@ -102,16 +102,13 @@
     <div class="page-navigation"
         style="position: fixed; top:-2px; display: none; border-bottom: 1px solid black; z-index: 9; background-color: white; width: 100vw; padding: 10px;">
         <ul>
-            <li class="page-navigation-btn">Placed Student</li>
-            <li class="page-navigation-btn">Curriculum</li>
-
-            <li class="page-navigation-btn">Know Uncodemy</li>
-
-            <li class="page-navigation-btn">Instructors</li>
-            <li class="page-navigation-btn">Industry Project</li>
-
-            <li class="page-navigation-btn">Reviews</li>
-            <li class="page-navigation-btn">Special Schedule</li>
+            <li class="page-navigation-btn"data-target="placed-candidates">Placed Student</li>
+            <li class="page-navigation-btn"data-target="curriculum">Curriculum</li>
+            <li class="page-navigation-btn"data-target="know-uncodemy">Know Uncodemy</li>
+            <li class="page-navigation-btn"data-target="instructor">Instructors</li>
+            <li class="page-navigation-btn"data-target="industry-project">Industry Project</li>
+            <li class="page-navigation-btn"data-target="reviews">Reviews</li>
+            <li class="page-navigation-btn"data-target="schedules">Special Schedule</li>
             <a target="_blank" download onclick="showForm(), setDownload('PythonBtn')">
                 <li class="page">Download Brochure</li>
             </a>
@@ -824,7 +821,7 @@
                         </div>
                         <div class="big-box">
                             <ul>
-                                <li><img src="/img/tools.png" alt="15 Tools and Software - best tools for data science">
+                                <li><img src="/img/tools.png" alt="Tools logo">
                                 </li>
                                 <li>
                                     <span>15</span>
@@ -863,7 +860,7 @@
                         </div>
                         <div class="sy-img-con">
                             <div class="syllabus-img">
-                                <img src="/img/tools.png" alt="15 Tools and Software - best tools for data science">
+                                <img src="/img/tools.png" alt="Tools logo">
                             </div>
                             <div class="syllabus-content">
                                 <span>15+</span>
@@ -1321,97 +1318,53 @@
 
             <div class="technologies">
 
-
                 <ul>
+                     
                     <li>
-                        <img src="/img/tools/Excel.jpg" alt="Excel">
-                        <h3>Excel</h3>
+                        <img  src="/img/tools/Python.jpg" alt="Python">
+                        <h3>Python</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Tableau.png" alt="Tableau">
-                        <h3>Tableau</h3>
+                        <img  src="/img/tools/keras (1).png" alt="Keras">
+                        <h3>Keras</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Power-BI-Symbol.png" alt="Power-Bi">
-                        <h3>Power-Bi</h3>
+                        <img src="/img/tools/flask.jpg" alt="Flask">
+                        <h3>Flask </h3>
                     </li>
                     <li>
-                        <img src="/img/tools/ggplot.png" alt="ggplot">
-                        <h3>ggplot</h3>
+                        <img src="/img/tools/Pandas.png" alt="Panda">
+                        <h3>Panda</h3>
                     </li>
                     <li>
                         <img src="/img/tools/Jupyter.png" alt="Jupyter">
                         <h3>Jupyter</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Numpy .png" alt="Numpy">
-                        <h3>Numpy</h3>
-                    </li>
-                    <li>
-                        <img class="python" src="/img/tools/Python.jpg" alt="Python">
-                        <h3>Python</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/Pandas.png" alt="Pandas">
-                        <h3>Pandas</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/Seaborn .jpg" alt="Seaborn">
-                        <h3>Seaborn</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/looker.png" alt="Looker">
-                        <h3>Looker</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/Matplotlib-logo.png" alt="Matplotlib">
-                        <h3>Matplotlib</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/PyCharm.png" alt="PyCharm">
-                        <h3>PyCharm</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/Google Colab.jpg" alt="Google Colab">
-                        <h3>Google Colab</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/Anaconda.jpg" alt="Anaconda">
-                        <h3>Anaconda</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/NLTK.png" alt="NLTK">
-                        <h3>NLTK</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/Scikit-learn.png" alt="Scikit-learn">
-                        <h3>Scikit-learn</h3>
-                    </li>
-                    <li>
                         <img src="/img/tools/SQL.png" alt="SQL">
                         <h3>SQL</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/MySql.png" alt="MySql">
-                        <h3>MySql</h3>
+                        <img src="/img/tools/sublimetext.png" alt="Sublime">
+                        <h3>Sublime</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/PostgreSQL.png" alt="PostgreSQL">
-                        <h3>PostgreSQL</h3>
+                        <img src="/img/tools/vscode-stable.png" alt="VSCode">
+                        <h3>VSCode</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/ML.jpg" alt="ML">
-                        <h3>ML</h3>
+                        <img src="/img/tools/GitHub-Symbol.png" alt="Github">
+                        <h3>Github</h3>
                     </li>
-                    <li>
-                        <img src="/img/tools/Deep Learning.png" alt="Deep Learning">
-                        <h3>Deep Learning</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/NLP.jpg" alt="NLP">
-                        <h3>NLP</h3>
-                    </li>
+                    
+                    
                 </ul>
+
+
+
+
+
+
 
                 <div class="apply-btn ">
                     <button style="background-color: #ff5421 !important; color:white !important;background-color: #ff5421 !important;
@@ -1824,7 +1777,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
 
 
             <section style="background-color: none !important;" id="fees" class="pd">
-                <div style=" background-color:transparent" class="residents"><div class="container-fluid"><div class="row"><div class="col-xl-7 col-lg-6 col-md-6 col-12"><div class="place-heading col-flex"><h2 style="color:black;"> Uncodemy </h2><p class="Acce">Access unparalleled learning with live sessions, recordings, assignments, and live projects led by a top-tier mentor and industry expert trainer. Elevate your skills with the best-in-class educational content.</p><button style="color:rgb(247, 5, 5); " type="button" class="fill-btn" data-toggle="modal" onclick="showForm()">Apply Now</button>
+                <div style=" background-color:transparent" class="residents"><div class="container-fluid"><div class="row"><div class="col-xl-7 col-lg-6 col-md-6 col-12"><div class="place-heading col-flex"><h2 style="color:black;"> Uncodemy </h2><p class="Acce">Access unparalleled learning with live sessions, recordings, assignments, and live projects led by a top-tier mentor and industry expert trainer. Elevate your skills with the best-in-class educational content.</p><button style="color:rgb(247, 5, 5); " type="button" class="fill-btn" data-toggle="modal" download onclick="showForm(), setDownload('PythonBtn')">Apply Now</button>
                                 </div>
                             </div>
                             <div class="col-xl-5 col-lg-6 col-md-6 col-12 ">
@@ -1901,21 +1854,21 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="shadow">
                             <div class="inst">
-                                <img style="height: 10rem !important; max-width: none !important;"
-                                    src="/img/placement/vipul.jpeg"
-                                    alt="Dr. Deepika Sharma - Training Head, DataTrained">
-                                <h3>Upendra Kumar Tiwari </h3>
-                                <h3> Data Scientist | Machine Learning | Data Visualization | NLP | Financial Analytics
-                                    | Machine Learning on Cloud. </h3>
+                                <img style="height: 10rem !important; max-width: none !important;" src="/img/placement/sonal2.jpeg"
+                                    alt="instructor image">
+                                <h3>Ms. Sonal </h3>
+                                <h3> Full Stack Development | Core & Advance Java | Spring MVC | Angular | Reactjs |
+                                    MySQL | Data
+                                    Visualization </h3>
                             </div>
                             <div class="post po">
-                                Having more than 15 years of experience. always willing to accept new challenges, roles,
-                                and responsibilities
+                                Professional Java trainer has extensive knowledge of Java programming combined with good
+                                presentation
                                 <span class="dots">...</span>
-                                <span class="more"> love to learn and share what I have learned. I believe that the
-                                    ability to juggle data using Math and Programming skills will help uncover many
-                                    business solutions. With a deep interest in Machine Learning and Artificial
-                                    Intelligence, aiming to provide knowledge to ML and AI enthusiasts.
+                                <span class="more">and teaching abilities. Has master’s degree in computer application,
+                                    strong understanding of Java Development, and over 8+ years of experience.
+                                    Skills Set: Java 8, J2EE, Spring Boot, Hibernate, JUnit, Maven Microservices,
+                                    Reactjs, and Angular.
 
 
 
@@ -1933,28 +1886,25 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                         <div class="shadow">
                             <div class="inst">
                                 <img style="height: 10rem !important; max-width: none !important;"
-                                    src="/image/bambamkr.jpg" alt="Dr. Deepika Sharma - Training Head, DataTrained">
-                                <h3>Nikhil </h3>
-                                <h3> Senior Data Scientist at Yum | Data Scientist | Machine Learning | Data
-                                    Visualization | NLP | Financial Analytics</h3>
+                                    src="/image/rajesh.jpg" alt="Instructor image">
+                                <h3>Mr. Rajesh Kumar Mandal </h3>
+                                <h3> Full Stack Development | Express.js | React.js | Node.js | JavaScript | Python | Django | Flask </h3>
                             </div>
                             <div class="post po">
-                                An enthusiastic, energetic, and self-motivated learner who believes in hard work as well
-                                as smart work.
-                                <span class="dots">...</span>
-                                <span class="more"> I believe in working smart rather than working hard. I like to
-                                    explore new ideas and experiment with them and I am
-                                    interested in Python Programming Language. To describe myself in one word I can say
-                                    I have a great passion for data science and its application in problem-solving,
-                                    which is backed with practical knowledge. My aim is to get a chance to prove myself
-                                    as an outstanding individual by working in a challenging environment that would aid
-                                    me in polishing my skills and abilities.
+                                Mr. Rajesh, an experienced MERN Full Stack Developer, is proficient in building end-to-end applications using  MongoDB, Express.js, React.js, and Node.js.
 
+                                <span class="dots">...</span>
+                                <span class="more">  With a strong foundation in Frontend and Backend, and comprehensive understanding of Python programming, and hands-on experience in developing scalable applications. He holds a master’s degree in computer science and possesses over 10+ years of expertise.
+                                    <div class="IMT">
+                                        <h3>Skills Set:</h3>
+                                        <p> MongoDB, Express.js, React.js, Node.js, Python, JavaScript (ES6+), RESTful APIs, Git.</p>
+                                    </div>
 
 
 
                                 </span>
-                                <a class="read re glow-on-hover glo ">Read more</a>
+
+                                <a class="read re glow-on-hover glo navScollAt">Read more</a>
                             </div>
 
                         </div>
@@ -1962,29 +1912,32 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
 
                     </div>
 
+                     
+
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="shadow">
                             <div class="inst">
                                 <img style="height: 10rem !important; max-width: none !important;"
-                                    src="/image/irshad.jpg" alt="Dr. Deepika Sharma - Training Head, DataTrained">
-                                <h3>Irshad Khan </h3>
-                                <h3> Data Science | Machine Learning | Python | Statistical Modeling | Analytics|
-                                    Researcher | Applied Mathematics </h3>
+                                    src="/image/trainer-priyanka.jpg"
+                                    alt="Instructor Image">
+                                <h3>Ms. Priyanka</h3>
+                                <h3>Head of the HR & Placement </h3>
                             </div>
                             <div class="post po">
-                                Data scientist enthusiast with strong experience in using a variety of data mining/data
-                                analysis methods,
+                                Priyanka, the Head of the HR & Placement Department at Uncodemy. With a decade of
+                                experience, she has skillfully led the HR team, overseeing
                                 <span class="dots">...</span>
-                                <span class="more"> a variety of data tools, building and implementing models,
-                                    using/creating algorithms, and creating/running simulations. with
-                                    extensive experience in solving many real-world business problems across different
-                                    domains through insights from predictive modeling, data processing, and data mining,
-                                    machine learning, and deep learning algorithms.
+                                <span class="more">training and recruitment. Currently, Priyanka dedicates her efforts
+                                    to streamlining interview-related requirements at Uncodemy, ensuring seamless
+                                    placements for students. Her extensive expertise and commitment contribute to
+                                    creating a supportive and conducive environment for professional growth and
+                                    success at Uncodemy.
 
 
 
 
                                 </span>
+
                                 <a class="read re glow-on-hover glo navScollAt">Read more</a>
                             </div>
 

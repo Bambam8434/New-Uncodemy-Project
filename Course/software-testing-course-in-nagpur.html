@@ -103,16 +103,13 @@
     <div class="page-navigation"
         style="position: fixed; top:-2px; display: none; border-bottom: 1px solid black; z-index: 9; background-color: white; width: 100vw; padding: 10px;">
         <ul>
-            <li class="page-navigation-btn">Placed Student</li>
-            <li class="page-navigation-btn">Curriculum</li>
-
-            <li class="page-navigation-btn">Know Uncodemy</li>
-
-            <li class="page-navigation-btn">Instructors</li>
-            <li class="page-navigation-btn">Industry Project</li>
-
-            <li class="page-navigation-btn">Reviews</li>
-            <li class="page-navigation-btn">Special Schedule</li>
+            <li class="page-navigation-btn"data-target="placed-candidates">Placed Student</li>
+            <li class="page-navigation-btn"data-target="curriculum">Curriculum</li>
+            <li class="page-navigation-btn"data-target="know-uncodemy">Know Uncodemy</li>
+            <li class="page-navigation-btn"data-target="instructor">Instructors</li>
+            <li class="page-navigation-btn"data-target="industry-project">Industry Project</li>
+            <li class="page-navigation-btn"data-target="reviews">Reviews</li>
+            <li class="page-navigation-btn"data-target="schedules">Special Schedule</li>
             <a target="_blank" download onclick="showForm(), setDownload('SoftwareTestingBtn')">
                 <li class="page">Download Brochure</li>
             </a>
@@ -1103,7 +1100,7 @@
                         </div>
                         <div class="big-box">
                             <ul>
-                                <li><img src="/img/tools.png" alt="15 Tools and Software - best tools for data science">
+                                <li><img src="/img/tools.png" alt="Tools logo">
                                 </li>
                                 <li>
                                     <span>15</span>
@@ -1142,7 +1139,7 @@
                         </div>
                         <div class="sy-img-con">
                             <div class="syllabus-img">
-                                <img src="/img/tools.png" alt="15 Tools and Software - best tools for data science">
+                                <img src="/img/tools.png" alt="Tools logo">
                             </div>
                             <div class="syllabus-content">
                                 <span>12+</span>
@@ -2609,92 +2606,56 @@
 
                 <ul>
                     <li>
+                        <img src="/img/tools/selenium.png" alt="Selenium">
+                        <h3>Selenium</h3>
+                    </li>
+                    <li>
+                        <img src="/img/tools/sdlc.jpg" alt="SDLC">
+                        <h3>SDLC</h3>
+                    </li>
+                    <li>
                         <img src="/img/tools/Excel.jpg" alt="Excel">
                         <h3>Excel</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Tableau.png" alt="Tableau">
-                        <h3>Tableau</h3>
+                        <img src="/image/testng.png" alt="TextNG">
+                        <h3>Text NG</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Power-BI-Symbol.png" alt="Power-Bi">
-                        <h3>Power-Bi</h3>
+                        <img src="/img/tools/apache.png" alt="Apache">
+                        <h3>Apache</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/ggplot.png" alt="ggplot">
-                        <h3>ggplot</h3>
+                        <img src="/img/tools/soap.png" alt="SoapUI">
+                        <h3>SoapUI</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Jupyter.png" alt="Jupyter">
-                        <h3>Jupyter</h3>
+                        <img src="/img/tools/jira-3.png" alt="JIRA">
+                        <h3>JIRA</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Numpy .png" alt="Numpy">
-                        <h3>Numpy</h3>
+                        <img src="/img/tools/GitHub-Symbol.png" alt="Github">
+                        <h3>Github</h3>
                     </li>
                     <li>
-                        <img class="python" src="/img/tools/Python.jpg" alt="Python">
-                        <h3>Python</h3>
+                        <img src="/img/tools/API-Testing-guide.png" alt="API-Testing">
+                        <h3>API-Testing</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Pandas.png" alt="Pandas">
-                        <h3>Pandas</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/Seaborn .jpg" alt="Seaborn">
-                        <h3>Seaborn</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/looker.png" alt="Looker">
-                        <h3>Looker</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/Matplotlib-logo.png" alt="Matplotlib">
-                        <h3>Matplotlib</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/PyCharm.png" alt="PyCharm">
-                        <h3>PyCharm</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/Google Colab.jpg" alt="Google Colab">
-                        <h3>Google Colab</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/Anaconda.jpg" alt="Anaconda">
-                        <h3>Anaconda</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/NLTK.png" alt="NLTK">
-                        <h3>NLTK</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/Scikit-learn.png" alt="Scikit-learn">
-                        <h3>Scikit-learn</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/SQL.png" alt="SQL">
+                        <img class="python" src="/img/tools/SQL.png" alt="SQL">
                         <h3>SQL</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/MySql.png" alt="MySql">
-                        <h3>MySql</h3>
+                        <img src="/img/tools/agile.png" alt="Agile">
+                        <h3>Agile</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/PostgreSQL.png" alt="PostgreSQL">
-                        <h3>PostgreSQL</h3>
+                        <img src="/img/tools/lambda.png" alt="Lambda">
+                        <h3>Lambda</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/ML.jpg" alt="ML">
-                        <h3>ML</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/Deep Learning.png" alt="Deep Learning">
-                        <h3>Deep Learning</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/NLP.jpg" alt="NLP">
-                        <h3>NLP</h3>
+                        <img src="/img/tools/cucumber.png" alt="cucumber">
+                        <h3>Cucumber</h3>
                     </li>
                 </ul>
 
@@ -3114,7 +3075,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
 
 
             <section style="background-color: none !important;" id="fees" class="pd">
-                <div style=" background-color:transparent" class="residents"><div class="container-fluid"><div class="row"><div class="col-xl-7 col-lg-6 col-md-6 col-12"><div class="place-heading col-flex"><h2 style="color:black;"> Uncodemy </h2><p class="Acce">Access unparalleled learning with live sessions, recordings, assignments, and live projects led by a top-tier mentor and industry expert trainer. Elevate your skills with the best-in-class educational content.</p><button style="color:rgb(247, 5, 5); " type="button" class="fill-btn" data-toggle="modal" onclick="showForm()">Apply Now</button>
+                <div style=" background-color:transparent" class="residents"><div class="container-fluid"><div class="row"><div class="col-xl-7 col-lg-6 col-md-6 col-12"><div class="place-heading col-flex"><h2 style="color:black;"> Uncodemy </h2><p class="Acce">Access unparalleled learning with live sessions, recordings, assignments, and live projects led by a top-tier mentor and industry expert trainer. Elevate your skills with the best-in-class educational content.</p><button style="color:rgb(247, 5, 5); " type="button" class="fill-btn" data-toggle="modal" download onclick="showForm(), setDownload('SoftwareTestingBtn')">Apply Now</button>
                                 </div>
                             </div>
                             <div class="col-xl-5 col-lg-6 col-md-6 col-12 ">
@@ -3186,30 +3147,30 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center">
+               <div class="row justify-content-center">
 
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="shadow">
                             <div class="inst">
-                                <img style="height: 10rem !important; max-width: none !important;"
-                                    src="/image/aashish.jpeg" alt="Dr. Deepika Sharma - Training Head, DataTrained">
-                                <h3>Aashish Nayak </h3>
-                                <h3> IBM | ISTQB Certified Tester | Manual, API & Automation Testing & Software Testing | Machine Learning on Cloud.</h3>
+                                <img style="height: 10rem !important; max-width: none !important;" src="/image/shubham.jpg"
+                                    alt="instructor image">
+                                <h3>Mr. Shubham Singh</h3>
+                                <h3>TCS | Corporate Trainer | Manual, API & Automation Testing | Selenium with Java | JMeter | Performance Testing</h3>
                             </div>
                             <div class="post po">
-                                Having more than 15 years of experience. always willing to accept new challenges, roles,
-                                and responsibilities
-                                <span class="dots">...</span>
-                                <span class="more"> love to learn and share what I have learned. I believe that the
-                                    ability to juggle data using Math and Programming skills will help uncover many
-                                    business solutions. With a deep interest in Machine Learning and Artificial
-                                    Intelligence, aiming to provide knowledge to ML and AI enthusiasts.
+                                Certification in Advanced Selenium WebDriver with Java and possess hands-on experience with Maven, TestNG, and the Robot Framework.  As a seasoned 
 
+                                <span class="dots">...</span>
+                                <span class="more">Software Testing Trainer, my expertise extends across various applications and operating systems commonly utilized in business environments. 
+
+                                <div class="IMT">
+                                    <h3>Skills Set:</h3>
+                                    <p>Performance Tresting, Jmeter, API, RestAPI, TestNG, Github,</p>
+                                </div>
 
 
 
                                 </span>
-
                                 <a class="read re glow-on-hover glo ">Read more</a>
                             </div>
 
@@ -3217,62 +3178,135 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
 
 
                     </div>
-
-                    <div class="col-lg-4 col-md-6 col-12">
+                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="shadow">
                             <div class="inst">
                                 <img style="height: 10rem !important; max-width: none !important;"
-                                    src="/image/shivendra.jpg" alt="Dr. Deepika Sharma - Training Head, DataTrained">
-                                <h3>Shivendra </h3>
-                                <h3> IBM | ISTQB Certified Tester | Manual, API & Automation Testing | Selenium with
-                                    Java | Machine Learning on Cloud.</h3>
+                                    src="/image/rishiraj.jpg" alt="instructor image">
+                                <h3>Mr. Rishi Raj</h3>
+                                <h3>Cognizant | Corporate Trainer | Manual, API & Automation Testing | Selenium with Java </h3>
                             </div>
                             <div class="post po">
-                                ISTQB, ISQI & HP Certified Associate Software Manager – Testing with 5+ years of diverse
-                                experience in Automation
+                                Certified in Advance Selenium Webdriver with Java, worked on Maven, TestNG & Jmeter. Professional Software Testing Trainer with extensive
                                 <span class="dots">...</span>
-                                <span class="more">and Manual Testing on various platforms across several projects and
-                                    clients. Professional Software Testing Trainer with extensive knowledge of a wide
-                                    variety of applications and operating systems commonly used in businesses.
-
+                                <span class="more">  knowledge of a wide variety of applications and operating systems commonly used in businesses. An expert at designing training courses with technical content, I am effective at imparting knowledge through my superior verbal communication skills and active listening style.
+                                    <!-- <div class="IMT">
+                                        <h3>Skills Set:</h3>
+                                        <p> MongoDB, Express.js, React.js, Node.js, Python, JavaScript (ES6+), RESTful APIs, Git.</p>
+                                    </div> -->
 
 
 
                                 </span>
 
-                                <a class="read re glow-on-hover glo ">Read more</a>
-                            </div>
-
-                        </div>
-
-
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="shadow">
-                            <div class="inst">
-                                <img style="height: 10rem !important; max-width: none !important;"
-                                    src="/image/shubham.jpg" alt="Dr. Deepika Sharma - Training Head, DataTrained">
-                                <h3>Shubham Singh </h3>
-                                <h3> TCS | Corporate Trainer | ISTQB | Certified Tester | Automation Testing | Selenium
-                                    with Java | Machine Learning on Cloud.</h3>
-                            </div>
-                            <div class="post po">
-                                Certified in Advance Selenium Webdriver with java, worked on Maven, TestNG & Robot
-                                Framework. Professional
-                                <span class="dots">...</span>
-                                <span class="more">Software Testing Trainer with extensive knowledge of a wide variety
-                                    of applications and operating systems commonly used in businesses. An expert at
-                                    designing training courses with technical content, I am effective at imparting
-                                    knowledge through my superior verbal communication skills and active listening
-                                    style.
-
-
-
-
-                                </span>
                                 <a class="read re glow-on-hover glo navScollAt">Read more</a>
+                            </div>
 
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="shadow">
+                            <div class="inst">
+                                <img style="height: 10rem !important; max-width: none !important;" src="/image/raviprakash.jpg"
+                                    alt="instructor image">
+                                <h3>Mr. Ravi Prakash</h3>
+                                <h3>Wipro | Manual, API & Automation Testing | Selenium with Java                                </h3>
+                            </div>
+                            <div class="post po">
+                                Certified in ISTQB & Advanced Software Testing with expertise in web & Mobile testing, Java, Maven, TestNG, and Robot Framework. As a skilled      <span class="dots">...</span>
+                                <span class="more">Software Testing Trainer, brings a dynamic training approach, ensuring participants grasp complex concepts through engaging sessions. They make tricky software testing stuff simple and enjoyable in their training sessions!
+                                    <!-- <div class="IMT">
+                                        <h3>Skills Set:</h3>
+                                        <p> MongoDB, Express.js, React.js, Node.js, Python, JavaScript (ES6+), RESTful APIs, Git.                                        </p>
+                                    </div> -->
+
+
+                                </span>
+
+                                <a class="read re glow-on-hover glo ">Read more</a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                 
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="shadow">
+                            <div class="inst">
+                                <img style="height: 10rem !important; max-width: none !important;"
+                                    src="/image/Tawqeer.jpg" alt="instructor image">
+                                <h3>Mr. Tawqeer
+                                </h3>
+                                <h3>Test Yantra  | Manual, API & Automation Testing | Selenium with Java </h3>
+                            </div>
+                            <div class="post po">
+                                Professional Software Testing Trainer with extensive knowledge of a wide variety of applications and operating systems commonly used in businesses. 
+                                <span class="dots">...</span>
+                                <span class="more">  An expert at designing training courses with technical content, I am effective at imparting knowledge through my superior verbal communication skills and active listening style.
+                                    <!-- <div class="IMT">
+                                        <h3>Skills Set:</h3>
+                                        <p> WordPress, Shopify, MongoDB, React.js, Node.js, JavaScript (ES6+), RESTful APIs, Git.</p>
+                                    </div> -->
+
+
+
+                                </span>
+
+                                <a class="read re glow-on-hover glo navScollAt">Read more</a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="shadow">
+                            <div class="inst">
+                                <img style="height: 10rem !important; max-width: none !important;"
+                                    src="/image/pradyumn.jpg" alt="instructor image">
+                                <h3>Mr. Pradyumn Singh</h3>
+                                <h3>Head of Training & Placement</h3>
+                            </div>
+                            <div class="post po">
+                                Pradyumn Singh, the Head of Training & Placement at Uncodemy. With 8 years of expertise, he has led Software Testing, Development,
+                                <span class="dots">...</span>
+                                <span class="more">and Digital Marketing teams.  Currently, Pradyumn directs his focus on ensuring top-quality training at Uncodemy and facilitating successful student placements. A seasoned professional with a strategic vision, he plays a pivotal role in shaping the educational and career paths of aspiring individuals at Uncodemy.
+                                   
+
+
+
+                                </span>
+
+                                <a class="read re glow-on-hover glo navScollAt">Read more</a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="shadow">
+                            <div class="inst">
+                                <img style="height: 10rem !important; max-width: none !important;"
+                                    src="/image/trainer-priyanka.jpg" alt="instructor image">
+                                <h3>Ms. Priyanka</h3>
+                                <h3>Head of the HR & Placement </h3>
+                            </div>
+                            <div class="post po">
+                                Priyanka, the Head of the HR & Placement Department at Uncodemy. With a decade of experience, she has skillfully led the HR team, overseeing 
+                                <span class="dots">...</span>
+                                <span class="more">training and recruitment. Currently, Priyanka dedicates her efforts to streamlining interview-related requirements at Uncodemy, ensuring seamless placements for students. Her extensive expertise and commitment contribute to creating a supportive and conducive environment for professional growth and success at Uncodemy.
+                                 
+
+
+
+                                </span>
+
+                                <a class="read re glow-on-hover glo navScollAt">Read more</a>
                             </div>
 
                         </div>

@@ -153,7 +153,9 @@ body:hover > .categories nav menuitem > menu {
 
 }
 @media (max-width: 320px) {
- 
+  .TRAI-ning .dropdown-close-btn {
+    right: 40px;
+  }
   .nav-top-head {
     /* height: 20vw !important; */
     height: 23vw !important;
@@ -333,7 +335,7 @@ menuitem:hover > menu {
   }
   @media only screen and (max-width: 900px) and (min-width: 781px) {
     .course-right-section {
-      height: 50vh !important;
+      height: 450px !important;
       padding: 0 35px;
     }
     #CAD,
@@ -396,7 +398,7 @@ menuitem:hover > menu {
   }
   .navigation-section ul .cls{
     display: flex !important;
-    flex-direction: column !important;
+    /* flex-direction: column !important; */
     max-height: 120px !important;
     min-height: 38px !important;
 height: 80px !important;
@@ -406,7 +408,7 @@ row-gap: 30px !important;
 
 
   .Train {
-    height: 165px !important;
+    height: 480px !important;
     overflow-y: scroll !important;
   }
   .mobile-whats .whats-box img {
@@ -422,11 +424,11 @@ row-gap: 30px !important;
     height: 500px !important;
   }
   .Train {
-    height: 165px !important;
+    height: 480px !important;
     overflow-y: scroll !important;
   }
   .course-right-section {
-    height: 252px !important;
+    height: 450px !important;
     overflow-y: scroll !important;
   }
   .mobile-whats .whats-box img {
@@ -459,7 +461,7 @@ row-gap: 30px !important;
     height: 161px !important;
   }
   .course-right-section {
-    height: 252px !important;
+    height: 450px !important;
     overflow-y: scroll !important;
   }
   .mobile-whats .whats-box img {
@@ -467,6 +469,13 @@ row-gap: 30px !important;
   
   }
 }
+
+@media only screen and (min-width: 798px) {
+  .categories:hover .hii{
+    display: block;
+  }
+}
+
 
 @media only screen and (min-width: 375px) and (max-width: 667px) {
   .Train,
@@ -477,7 +486,7 @@ row-gap: 30px !important;
     height: 500px !important;
   }
   .Train {
-    height: 165px !important;
+    height: 480px !important;
   }
 }
 .pam {
@@ -577,6 +586,17 @@ row-gap: 30px !important;
   left: 165px;
   height: 50px;
 
+}
+.dropdown-close-btn{
+  background: #ff5421;
+    height: 28px;
+    width: 38px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -30px, rgba(10, 37, 64, 0.35) 0 -2px 6px 0 inset;
+}
+.dropdown-close-btn{
+color: white;
+padding: 0;
 }
 
  /* .COuRs{

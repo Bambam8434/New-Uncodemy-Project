@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="/css/responsive2.css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
- <!--  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <!--  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <!------ Include the above in your HEAD tag ---------->
     <link rel="stylesheet" href="/css/placement.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
@@ -102,16 +102,13 @@
     <div class="page-navigation"
         style="position: fixed; top:-2px; display: none; border-bottom: 1px solid black; z-index: 9; background-color: white; width: 100vw; padding: 10px;">
         <ul>
-            <li class="page-navigation-btn">Placed Student</li>
-            <li class="page-navigation-btn">Curriculum</li>
-
-            <li class="page-navigation-btn">Know Uncodemy</li>
-
-            <li class="page-navigation-btn">Instructors</li>
-            <li class="page-navigation-btn">Industry Project</li>
-
-            <li class="page-navigation-btn">Reviews</li>
-            <li class="page-navigation-btn">Special Schedule</li>
+            <li class="page-navigation-btn"data-target="placed-candidates">Placed Student</li>
+            <li class="page-navigation-btn"data-target="curriculum">Curriculum</li>
+            <li class="page-navigation-btn"data-target="know-uncodemy">Know Uncodemy</li>
+            <li class="page-navigation-btn"data-target="instructor">Instructors</li>
+            <li class="page-navigation-btn"data-target="industry-project">Industry Project</li>
+            <li class="page-navigation-btn"data-target="reviews">Reviews</li>
+            <li class="page-navigation-btn"data-target="schedules">Special Schedule</li>
             <a target="_blank" download onclick="showForm(), setDownload('ReactBtn')">
                 <li class="page">Download Brochure</li>
             </a>
@@ -192,7 +189,7 @@
 
 
 
-                            <div class="Placement-training"> 
+                            <div class="Placement-training">
                                 <a> <button style="color: #ff5421 !important; background-color:transparent !important;
                                border: 1px solid #ff5421;
                                 margin-right: 0;
@@ -344,7 +341,8 @@
                 <h2>Meet Students Who are Placed through <b style="color:#ff5421"
                         class="d-inline-block position-relative  text-capitalize mb-4">Uncodemy -</b></h2>
 
-                <p style="font-size: 16px !important; font-weight: 500;">Uncodemy's React Js course in Ghaziabad is nothing
+                <p style="font-size: 16px !important; font-weight: 500;">Uncodemy's React Js course in Ghaziabad is
+                    nothing
                     short of magic, boasting an impressive placement record of 9000+
                     students. The rigorousTraining program equips students with the skills and know-how to ace job
                     interviews, propelling
@@ -729,7 +727,8 @@ font-weight: 500;" class=" "> Student placed
                         text-align: justify;
                         font-weight: 500;" class=" ">No more procrastinating - step up and join the elite ranks of
                             industry expert masters at Uncodemy's React JS Bootcamp in
-                            Ghaziabad. Their faculty hails from the best of MNCs and rising startups alike, bringing insider
+                            Ghaziabad. Their faculty hails from the best of MNCs and rising startups alike, bringing
+                            insider
                             know-how from
                             the big leagues. Their perks pack a punch, justifying the modest investment for top-tier
                             instruction from industry
@@ -1547,7 +1546,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                             <i class=" db fa-solid fa-database base"></i>
                             <p
                                 style="font-size: 14px !important; text-align: justify !important ; color:black; font-weight: 300;  ;">
-                                For a reason Uncodemy, is the best React Js Training Institute in Ghaziabad, based out of
+                                For a reason Uncodemy, is the best React Js Training Institute in Ghaziabad, based out
+                                of
                                 Delhi NCR, India. Tutors employed
                                 in Uncodemy are from suppositious MNC’s to Startup’s that are well-thought of and are on
                                 the path of becoming the next
@@ -1574,7 +1574,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                             <i class=" db fa-solid fa-database base"></i>
                             <p
                                 style="font-size: 14px !important; text-align: justify !important ; color:black; font-weight: 300;  ;">
-                                Uncodemy understands its responsibility to provide the best React Js Training in Ghaziabad,
+                                Uncodemy understands its responsibility to provide the best React Js Training in
+                                Ghaziabad,
                                 by offering a provision of
                                 special batches to the students who want to start their professional journey ASAP.
                         </div>
@@ -1772,8 +1773,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
     <div class="container contu">
 
         <!-- Your video element -->
-            <img class="why" src="/img/tools/animate.gif" alt="" muted loop>
-  
+        <img class="why" src="/img/tools/animate.gif" alt="" muted loop>
+
 
 
 
@@ -1804,7 +1805,17 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
 
 
             <section style="background-color: none !important;" id="fees" class="pd">
-                <div style=" background-color:transparent" class="residents"><div class="container-fluid"><div class="row"><div class="col-xl-7 col-lg-6 col-md-6 col-12"><div class="place-heading col-flex"><h2 style="color:black;"> Uncodemy </h2><p class="Acce">Access unparalleled learning with live sessions, recordings, assignments, and live projects led by a top-tier mentor and industry expert trainer. Elevate your skills with the best-in-class educational content.</p><button style="color:rgb(247, 5, 5); " type="button" class="fill-btn" data-toggle="modal" onclick="showForm()">Apply Now</button>
+                <div style=" background-color:transparent" class="residents">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xl-7 col-lg-6 col-md-6 col-12">
+                                <div class="place-heading col-flex">
+                                    <h2 style="color:black;"> Uncodemy </h2>
+                                    <p class="Acce">Access unparalleled learning with live sessions, recordings,
+                                        assignments, and live projects led by a top-tier mentor and industry expert
+                                        trainer. Elevate your skills with the best-in-class educational content.</p>
+                                    <button style="color:rgb(247, 5, 5); " type="button" class="fill-btn"
+                                        data-toggle="modal" download onclick="showForm(), setDownload('ReactBtn')">Apply Now</button>
                                 </div>
                             </div>
                             <div class="col-xl-5 col-lg-6 col-md-6 col-12 ">
@@ -1888,29 +1899,62 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                         <div class="shadow">
                             <div class="inst">
                                 <img style="height: 10rem !important; max-width: none !important;"
-                                    src="/img/placement/vipul.jpeg"
-                                    alt="Dr. Deepika Sharma -Training Head, DataTrained">
-                                <h3>Upendra Kumar Tiwari </h3>
-                                <h3> Data Scientist | Machine Learning | Data Visualization | NLP | Financial Analytics
-                                    | Machine Learning on Cloud. </h3>
+                                    src="/image/rajesh.jpg" alt="Dr. Deepika Sharma - Training Head, DataTrained">
+                                <h3>Mr. Rajesh Kumar Mandal </h3>
+                                <h3> Full Stack Development | Express.js | React.js | Node.js | JavaScript | Python |
+                                    Django | Flask </h3>
                             </div>
                             <div class="post po">
-                                Having more than 15 years of experience. always willing to accept new challenges, roles,
-                                and
+                                Mr. Rajesh, an experienced MERN Full Stack Developer, is proficient in building
+                                end-to-end applications using MongoDB, Express.js, React.js, and Node.js.
 
                                 <span class="dots">...</span>
-                                <span class="more"> responsibilities love to learn and share what I have learned. I
-                                    believe that the
-                                    ability to juggle data using Math and Programming skills will help uncover many
-                                    business solutions. With a deep interest in Machine Learning and Artificial
-                                    Intelligence, aiming to provide knowledge to ML and AI enthusiasts.
+                                <span class="more"> With a strong foundation in Frontend and Backend, and comprehensive
+                                    understanding of Python programming, and hands-on experience in developing scalable
+                                    applications. He holds a master’s degree in computer science and possesses over 10+
+                                    years of expertise.
+                                    <div class="IMT">
+                                        <h3>Skills Set:</h3>
+                                        <p> MongoDB, Express.js, React.js, Node.js, Python, JavaScript (ES6+), RESTful
+                                            APIs, Git.</p>
+                                    </div>
+
+
+
+                                </span>
+
+                                <a class="read re glow-on-hover glo navScollAt">Read more</a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="shadow">
+                            <div class="inst">
+                                <img style="height: 10rem !important; max-width: none !important;"
+                                    src="/image/trainer-priyanka.jpg"
+                                    alt="Dr. Deepika Sharma - Training Head, DataTrained">
+                                <h3>Ms. Priyanka</h3>
+                                <h3>Head of the HR & Placement </h3>
+                            </div>
+                            <div class="post po">
+                                Priyanka, the Head of the HR & Placement Department at Uncodemy. With a decade of
+                                experience, she has skillfully led the HR team, overseeing
+                                <span class="dots">...</span>
+                                <span class="more">training and recruitment. Currently, Priyanka dedicates her efforts
+                                    to streamlining interview-related requirements at Uncodemy, ensuring seamless
+                                    placements for students. Her extensive expertise and commitment contribute to
+                                    creating a supportive and conducive environment for professional growth and
+                                    success at Uncodemy.
 
 
 
 
                                 </span>
-                                <a class="read re glow-on-hover glo ">Read more</a>
 
+                                <a class="read re glow-on-hover glo navScollAt">Read more</a>
                             </div>
 
                         </div>
@@ -1922,60 +1966,25 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                         <div class="shadow">
                             <div class="inst">
                                 <img style="height: 10rem !important; max-width: none !important;"
-                                    src="/img/placement/anurag.jpeg"
-                                    alt="Dr. Deepika Sharma -Training Head, DataTrained">
-                                <h3>Anurag Singh </h3>
-                                <h3> Senior Data Scientist at Yum | Data Scientist | Machine Learning | Data
-                                    Visualization | NLP | Financial Analytics</h3>
+                                    src="/image/pradyumn.jpg" alt="Dr. Deepika Sharma - Training Head, DataTrained">
+                                <h3>Mr. Pradyumn Singh</h3>
+                                <h3>Head of Training & Placement</h3>
                             </div>
                             <div class="post po">
-                                An enthusiastic, energetic, and self-motivated learner who believes in hard work as well
-                                as smart
+                                Pradyumn Singh, the Head of Training & Placement at Uncodemy. With 8 years of expertise,
+                                he has led Software Testing, Development,
                                 <span class="dots">...</span>
-                                <span class="more"> work. I believe in working smart rather than working hard. I like to
-                                    explore new ideas and experiment with them and I am
-                                    interested in Python Programming Language. To describe myself in one word I can say
-                                    I have a great passion for data science and its application in problem-solving,
-                                    which is backed with practical knowledge. My aim is to get a chance to prove myself
-                                    as an outstanding individual by working in a challenging environment that would aid
-                                    me in polishing my skills and abilities.
+                                <span class="more">and Digital Marketing teams. Currently, Pradyumn directs his focus on
+                                    ensuring top-quality training at Uncodemy and facilitating successful student
+                                    placements. A seasoned professional with a strategic vision, he plays a pivotal role
+                                    in shaping the educational and career paths of aspiring individuals at Uncodemy.
 
 
 
 
                                 </span>
-                                <a class="read re glow-on-hover glo ">Read more</a>
-                            </div>
 
-                        </div>
-
-
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="shadow">
-                            <div class="inst">
-                                <img style="height: 10rem !important; max-width: none !important;"
-                                    src="/image/irshad.jpg" alt="Dr. Deepika Sharma -Training Head, DataTrained">
-                                <h3>Irshad Khan </h3>
-                                <h3> Data Science | Machine Learning | Python | Statistical Modeling | Analytics|
-                                    Researcher | Applied Mathematics </h3>
-                            </div>
-                            <div class="post po">
-                                Data scientist enthusiast with strong experience in using a variety of data mining data
-                                <span class="dots">...</span>
-                                <span class="more">
-                                    analysis methods, a variety of data tools, building and implementing models,
-                                    using/creating algorithms, and creating/running simulations. with
-                                    extensive experience in solving many real-world business problems across different
-                                    domains through insights from predictive modeling, data processing, and data mining,
-                                    machine learning, and deep learning algorithms.
-
-
-
-
-                                </span>
-                                <a class="read re glow-on-hover glo ">Read more</a>
+                                <a class="read re glow-on-hover glo navScollAt">Read more</a>
                             </div>
 
                         </div>
@@ -2459,7 +2468,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                                                             <span class="dots">...</span>
                                                             <span class="more">
                                                                 <br> Uncodemy is renowned for its engaging and
-                                                                interactive live sessions in the React Js Training space.
+                                                                interactive live sessions in the React Js Training
+                                                                space.
                                                                 They leverage
                                                                 cutting-edge technology to enhance the learning
                                                                 experience, including whiteboard annotation tools,
@@ -2519,41 +2529,41 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                                                             real-world projects, equipping them with practical skills to
                                                             excel in the industry. The live projects encompassed in the
                                                             Bootcamp program may comprise:<br>
-                                                           
-                                                                <p>
-                                                                    Building a single-page application for a digital
-                                                                    marketplace
-                                                                </p>
-                                                                <p>Developing a dynamic, interactive portfolio website
-                                                                </p>
-                                                                <p>Creating a real-time chat application</p>
-                                                                <p>Implementing a blog platform with a content
-                                                                    management
-                                                                    system</p>
 
-                                                            
+                                                            <p>
+                                                                Building a single-page application for a digital
+                                                                marketplace
+                                                            </p>
+                                                            <p>Developing a dynamic, interactive portfolio website
+                                                            </p>
+                                                            <p>Creating a real-time chat application</p>
+                                                            <p>Implementing a blog platform with a content
+                                                                management
+                                                                system</p>
+
+
 
 
                                                             <span class="dots">...</span>
                                                             <span class="more">
-                                                                
-                                                                    <p>
-                                                                        Crafting a social media app with advanced
-                                                                        features
-                                                                        like user authentication and notifications
-                                                                    </p>
-                                                                    <p>
-                                                                        Designing a dynamic dashboard for data
-                                                                        visualization
-                                                                        and analytics
-                                                                    </p>
-                                                                    <p>
-                                                                        The projects are tailored to reinforce core
-                                                                        React Js
-                                                                        concepts and promote practical mastery of the
-                                                                        framework.
-                                                                    </p>
-                                                              
+
+                                                                <p>
+                                                                    Crafting a social media app with advanced
+                                                                    features
+                                                                    like user authentication and notifications
+                                                                </p>
+                                                                <p>
+                                                                    Designing a dynamic dashboard for data
+                                                                    visualization
+                                                                    and analytics
+                                                                </p>
+                                                                <p>
+                                                                    The projects are tailored to reinforce core
+                                                                    React Js
+                                                                    concepts and promote practical mastery of the
+                                                                    framework.
+                                                                </p>
+
 
                                                                 While the live project experience is undoubtedly a
                                                                 valuable component of the Bootcamp program, it is not
@@ -2571,7 +2581,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                                                                 participants the opportunity to hone their skills and
                                                                 become proficient in React. <br>
                                                                 Last but not least, Uncodemy's renowned React Js
-                                                                certificationTraining program, based in Ghaziabad, is ready
+                                                                certificationTraining program, based in Ghaziabad, is
+                                                                ready
                                                                 to welcome new
                                                                 students with open arms for the upcoming 2023 cohort.
                                                                 With limited seats available, interested individuals are
@@ -2616,7 +2627,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                                                         <div class="post po pot">
                                                             9572 students, who were onceTraining with
                                                             Uncodemy, which is the best React JS Training institute
-                                                            in Ghaziabad, successfully land high salaried packages in top
+                                                            in Ghaziabad, successfully land high salaried packages in
+                                                            top
                                                             reputed companies, as Uncodemy is not only best in providing
                                                             React js course that are in-vogue but also offers
                                                             placement guarantee of 100%. <br>Are you curious to know how
@@ -2650,7 +2662,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                                                                 Stanley etc. <br>Basically, with Uncodemy, invest a
                                                                 little and get big multiplied returns.
                                                                 Besides being the best React JS Training course
-                                                                provider in Ghaziabad, UNCODEMY also offers benefits such as
+                                                                provider in Ghaziabad, UNCODEMY also offers benefits
+                                                                such as
                                                                 Fully free tutorials, Personalised Guidance, best IT
                                                                 framework to showcase the skill set in order to improve
                                                                 and revise the learnt practices before the real
@@ -2712,7 +2725,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                                                             slay the interview game, one must undergo the hallowed rite
                                                             of passage
                                                             known as the React Js Bootcamp. This rigorousTraining
-                                                            program, available in the bustling hub of Ghaziabad, prepares
+                                                            program, available in the bustling hub of Ghaziabad,
+                                                            prepares
                                                             individuals for the trials and tribulations of the
                                                             professional world, with an emphasis on real-world scenarios
                                                             and
@@ -3189,7 +3203,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
 
                                 <div class="input-section name-section">
                                     <label>Location</label>
-                                    <input type="text" name="location" onchange="setFormValue(this.name,this.value)"required>
+                                    <input type="text" name="location" onchange="setFormValue(this.name,this.value)"
+                                        required>
                                 </div>
 
                                 <!-- <div class="training-course-select-section">
@@ -3257,7 +3272,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                         <span>Connect with us for Counselling</span>
                         <div class="info-head"><i class="fa fa-phone"></i> Call or Whatsapp</div>
                         <div class="buttons btns">
-                            <a href="tel:+917701928515" target="_blank"  id="Btn">+91
+                            <a href="tel:+917701928515" target="_blank" id="Btn">+91
                                 7701928515</a>
                             <div class="buttons">
                                 <a onclick="showPopUpForm()" id="Btn"> Schedule a Demo Session Now</a>
@@ -3551,9 +3566,10 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                     relevant
                     <span class="dots">...</span>
                     <span class="more">
-                        React Js Training in Ghaziabad, combined with their unwavering commitment to placement guarantees.
+                        React Js Training in Ghaziabad, combined with their unwavering commitment to placement
+                        guarantees.
                         But how exactly does this
-                        Training wizardry work? 
+                        Training wizardry work?
                         <p class="graph">Read the following steps to know:</p>
                         <ul class="Ulist">
 
@@ -3592,7 +3608,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                     Development,
                     <span class="dots">...</span>
                     <span class="more">Software
-                    Testing, Automation Testing, Business Analytics, Digital Marketing, AWS, Cloud Computing, AzureTraining,
+                        Testing, Automation Testing, Business Analytics, Digital Marketing, AWS, Cloud Computing,
+                        AzureTraining,
                         PythonTraining, Artificial Intelligence,
                         Machine Learning, Manual Testing and Search Engine Optimization. In a nutshell, Uncodemy offers
                         a cornucopia of Training
@@ -3617,12 +3634,14 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
 
                 <h2 class="tre"> Why Choose Uncodemy For A React js Course In Ghaziabad?</h2>
                 <div class="post">
-                    Regarded as the preeminent React Js Training provider in Ghaziabad, India, Uncodemy boasts a cadre of
+                    Regarded as the preeminent React Js Training provider in Ghaziabad, India, Uncodemy boasts a cadre
+                    of
                     erudite and adaptable
                     instructors, whose instructional methods are masterfully tailored to meet the diverse learning needs
-                    of 
+                    of
                     <span class="dots">...</span>
-                    <span class="more">each student. Boasting a robust alumni community of over 8233 talented professionals,
+                    <span class="more">each student. Boasting a robust alumni community of over 8233 talented
+                        professionals,
                         Uncodemy's pedigree as a premier React Js
                         <p class="graph" style="text-align: justify;">training institute is unassailable. The perks of
                             enrolling in Uncodemy's program include, but are not limited to, the
@@ -3639,7 +3658,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                         </ul>
 
 
-                        <p class="graph" style="text-align: justify;">Renowned as a paragon of React Js course in Ghaziabad,
+                        <p class="graph" style="text-align: justify;">Renowned as a paragon of React Js course in
+                            Ghaziabad,
                             India, Uncodemy has forged a partnership with prestigious Fortune 100
                             companies to ensure their curriculum reflects the most current and relevant trends in the
                             Java job market. The
@@ -3648,8 +3668,9 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                             data visualization, among many others.</p>
 
 
-                        <p class="graph" style="text-align: justify;"><b> Aspiring React Js aficionados flock to Uncodemy
-                            for the following reasons: </b></p>
+                        <p class="graph" style="text-align: justify;"><b> Aspiring React Js aficionados flock to
+                                Uncodemy
+                                for the following reasons: </b></p>
 
                         <ul class="Ulist">
                             <li>Reasonable price</li>
@@ -3673,12 +3694,12 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                     A candidate before pursuing the React Js course in Ghaziabad must go through the below mentioned
                     React Js trends- <br />
 
-                    
+
 
 
                     <span class="dots">...</span>
                     <span class="more">
-                        
+
                         <ul class="Ulist">
                             <li>It's easy to learn and has a gentle learning curve.</li>
                             <li>It's highly flexible, making it a breeze to build complex user interfaces.</li>
@@ -3718,14 +3739,16 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
 
                 <h2 class="tre">Jobs & vacancies for React Js developers in Ghaziabad</h2>
                 <div class="post">
-                    There are plenty of React Js developer jobs available in Ghaziabad! The job roles range from front-end
+                    There are plenty of React Js developer jobs available in Ghaziabad! The job roles range from
+                    front-end
                     developers to
                     full-stack developers, and the companies hiring include both startups and established tech
                     companies.
                     <span class="dots">...</span>
                     <span class="more">React Js is a highly sought-after skill, so if you have experience with it, you
                         should have no problem finding a job in
-                        Ghaziabad. And since Ghaziabad is a growing tech hub, there are likely to be even more opportunities in
+                        Ghaziabad. And since Ghaziabad is a growing tech hub, there are likely to be even more
+                        opportunities in
                         the future!
                         <p class="graph" style="text-align: justify;">There are several companies in Ghaziabad that
                             specialize in React Js development, such as Quokka Labs LLP, Web Designing and
@@ -3736,7 +3759,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                             businesses adopt React Js and integrate it into their existing tech stack. So if you're
                             looking to work with React Js or
                             hire React Js developers, Ghaziabad has several great options to choose from.</p>
-                        <p class="graph" style="text-align: justify;"><b>The vacancies for React Js developers in Ghaziabad
+                        <p class="graph" style="text-align: justify;"><b>The vacancies for React Js developers in
+                                Ghaziabad
                                 are pretty diverse and plentiful. Here are a few examples:</b></p>
                         <ul class="Ulist">
                             <p class="graph" style="text-align: justify;">
@@ -3756,7 +3780,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                                 Figma and Sketch, and also
                                 utilizing React to create interactive prototypes. I hope that helps give you a clearer
                                 picture of the variety of roles
-                                out there in Ghaziabad that involve React Js. The city is bustling with tech opportunities,
+                                out there in Ghaziabad that involve React Js. The city is bustling with tech
+                                opportunities,
                                 and React Js is definitely a
                                 popular tool in the mix.</li>
                         </ul>
@@ -3772,14 +3797,17 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                 <div class="post">
                     If you are skeptical regarding how you would do it is recommended that you should definitely go for
                     React Js Training
-                    for beginners in Ghaziabad because the average salary for a React Js developer in Ghaziabad is around ₹3.6
-                    lakhs 
+                    for beginners in Ghaziabad because the average salary for a React Js developer in Ghaziabad is
+                    around ₹3.6
+                    lakhs
                     <span class="dots">...</span>
                     <span class="more">per year. Of
-                    course this can vary depending on factors like experience, skills, company size, and location. But
-                    overall, it seems
-                    like React Js developers in Ghaziabad are earning a pretty decent salary. Not too shabby, if I do say so
-                    myself! Here are a few more salary-related deets to consider when it comes to React Js
+                        course this can vary depending on factors like experience, skills, company size, and location.
+                        But
+                        overall, it seems
+                        like React Js developers in Ghaziabad are earning a pretty decent salary. Not too shabby, if I
+                        do say so
+                        myself! Here are a few more salary-related deets to consider when it comes to React Js
                         developers in Ghaziabad:
 
                         <ul class="Ulist">
@@ -3806,12 +3834,14 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                     Uncodemy's advanced React Js Training in Ghaziabad is acclaimed for its exceptional quality and
                     affordability. The cost of
                     the course is an absolute steal at just ₹12,000, and you could even score some sweet discounts if
-                    you enroll 
+                    you enroll
                     <span class="dots">...</span>
                     <span class="more"> pronto!
-                    What's more, the course duration is a mere 1.5 months, making it a swift and efficient way to gain
-                    proficiency in this
-                    in-demand technology. But that's not all! Students who choose Uncodemy for their React Js Training in
+                        What's more, the course duration is a mere 1.5 months, making it a swift and efficient way to
+                        gain
+                        proficiency in this
+                        in-demand technology. But that's not all! Students who choose Uncodemy for their React Js
+                        Training in
                         Ghaziabad can take advantage of even more
                         perks. For those who have scheduling constraints due to work or other commitments, flexible
                         batch timings are offered.
@@ -3841,7 +3871,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                     React Js developers in
                     India is definitely on the rise. Here are some trends driving the demand:
 
-                    
+
 
 
                     <span class="dots">...</span>
@@ -3849,9 +3879,11 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                         <ul class="Ulist">
                             <li>The adoption of React Js by companies across various industries, including e-commerce,
                                 healthcare, and finance.</li>
-                            <li>The increasing popularity of single-page applications and Progressive Web Apps, which often
+                            <li>The increasing popularity of single-page applications and Progressive Web Apps, which
+                                often
                                 use React Js.</li>
-                            <li>The rise of mobile app development using React Native, a framework built on React Js.</li>
+                            <li>The rise of mobile app development using React Native, a framework built on React Js.
+                            </li>
                             <li>The growing demand for developers with front-end development skills, including React Js.
                             </li>
                             <li>The increasing popularity of JavaScript as a programming language.
@@ -3904,10 +3936,11 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
 
                 <h2 class="tre">Get industries but trainers for React Js Training in Ghaziabad</h2>
                 <div class="post">
-                    Despite the plethora of options for React Js Training in Ghaziabad, Uncodemy stands out as the premier
+                    Despite the plethora of options for React Js Training in Ghaziabad, Uncodemy stands out as the
+                    premier
                     choice for several
                     reasons. The expert instructors, with years of industry experience, impart the intricacies of
-                    React Js 
+                    React Js
 
                     <span class="dots">...</span>
                     <span class="more">
@@ -3924,14 +3957,16 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                             <li>Supportive and collaborative learning environment to foster peer-to-peer learning and
                                 build a strong network of
                                 professionals.</li>
-                            <li>All in all, Uncodemy's React Js Training for beginners in Ghaziabad provides a comprehensive
+                            <li>All in all, Uncodemy's React Js Training for beginners in Ghaziabad provides a
+                                comprehensive
                                 and well-rounded learning
                                 experience, ensuring that students are equipped with the skills and knowledge needed to
                                 excel in the field.</li>
 
                         </ul>
                         </p>
-                        The experienced educators at Uncodemy, the leading React Js Training institute in Ghaziabad, strive
+                        The experienced educators at Uncodemy, the leading React Js Training institute in Ghaziabad,
+                        strive
                         to create a welcoming
                         and inclusive learning environment that fosters a sense of camaraderie and belonging. The belief
                         that "The World Is One
@@ -3954,21 +3989,25 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                     Uncodemy, located in the thriving Delhi NCR region of India, is a highly esteemed institution for
                     React Js Training. The
                     instructors at Uncodemy are sourced from a diverse range of successful companies, including Fortune
-                    
+
 
                     <span class="dots">...</span>
                     <span class="more">100 corporations and
-                    burgeoning startups, ensuring that students receive an exceptional and well-rounded education. By
-                    attending Uncodemy's
-                    React Js course in Ghaziabad, students will benefit from a unique and unparalleled learning experience,
-                    one that is
-                    unparalleled in the region of Ghaziabad. The accomplished educators at Uncodemy are committed to instilling
+                        burgeoning startups, ensuring that students receive an exceptional and well-rounded education.
+                        By
+                        attending Uncodemy's
+                        React Js course in Ghaziabad, students will benefit from a unique and unparalleled learning
+                        experience,
+                        one that is
+                        unparalleled in the region of Ghaziabad. The accomplished educators at Uncodemy are committed to
+                        instilling
                         self-assurance and equipping learners with the skills
                         necessary to flourish in the competitive realm of React Js. Aside from the myriad advantages of
                         the React Js Training in
                         Ghaziabad, students have the added perk of earning certifications and potentially being awarded
                         scholarships from reputable
-                        partners of Uncodemy, upon successful completion of the React Js certification course in Ghaziabad,
+                        partners of Uncodemy, upon successful completion of the React Js certification course in
+                        Ghaziabad,
                         such as-
                         <ul class="Ulist">
                             <li>ISO</li>
@@ -3987,10 +4026,11 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
 
                 <h2 class="tre">Work on live projects in React Js Training with Uncodemy</h2>
                 <div class="post">
-                    Uncodemy, a premier React Js Training provider in Ghaziabad, boasts an exceptional Bootcamp program that
+                    Uncodemy, a premier React Js Training provider in Ghaziabad, boasts an exceptional Bootcamp program
+                    that
                     encompasses
                     interactive classes and test series. This hands-on approach enables students to collaborate with
-                     
+
 
                     <span class="dots">...</span>
                     <span class="more">
@@ -4025,7 +4065,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                             participants the opportunity to hone their skills and become proficient in React.
 
                         </p>
-                        Last but not least, Uncodemy's renowned React Js certificationTraining program, based in Ghaziabad,
+                        Last but not least, Uncodemy's renowned React Js certificationTraining program, based in
+                        Ghaziabad,
                         is ready to welcome new
                         students with open arms for the upcoming 2023 cohort. With limited seats available, interested
                         individuals are
@@ -4192,7 +4233,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                                         <div class="card-body">
                                             <div class="row">
                                                 <div class="col-lg-12">
-                                                    <p>Based on the research, the salary of a data scientist in Ghaziabad
+                                                    <p>Based on the research, the salary of a data scientist in
+                                                        Ghaziabad
                                                         can vary quite a bit, but the average salary seems to be around
                                                         ₹1,008,032 per year. Of course this is just an average and
                                                         there are many factors that can affect a data scientist's
@@ -4290,7 +4332,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                                             <div class="row">
                                                 <div class="col-lg-12">
                                                     <p>Based on the research, there are a few key trends in the data
-                                                        science job market in Ghaziabad. One is that there is a high demand
+                                                        science job market in Ghaziabad. One is that there is a high
+                                                        demand
                                                         for data scientists with specific skillsets, such as expertise
                                                         in machine learning, natural language processing, and cloud
                                                         computing. There is also a growing demand for data scientists
@@ -4577,193 +4620,202 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="cards-wrapper  ">
-                            <a  href="/Course/python-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card new  ">
-                                <img src="/img/tools/python1.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Python</h5>
+                            <a href="/Course/python-training-course-in-noida.html" class="CadAncor">
+                                <div style="height:370px !important" class="card new  ">
+                                    <img src="/img/tools/python1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Python</h5>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                            <a href="/Course/data-analytics-using-python-training-course-in-noida.html"class="CadAncor">
-                            <div style="height:370px !important" class="card new  d-none d-md-block">
-                                <img src="/img/tools/data-analytics-using-python.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Data Analytics using
-                                        Python</h5>
-                                </div>
-                            </div>
-                        </a>
-                            <a href="/Course/data-science-machine-learning-using-python-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card new  d-none d-md-block">
-                                <img src="/img/tools/Data-Science-Machine-Learning-using-Python-1.jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In React js & Machine
-                                        Learning Using Python</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
-
-                                </div>
-                            </div>
                             </a>
-                            <a href="/Course/machine-learning-using-python-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new  d-none d-md-block">
-                                <img src="/img/tools/Machine-Learning-using-Python.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Machine Learning Using
-                                        Python</h5>
+                            <a href="/Course/data-analytics-using-python-training-course-in-noida.html"
+                                class="CadAncor">
+                                <div style="height:370px !important" class="card new  d-none d-md-block">
+                                    <img src="/img/tools/data-analytics-using-python.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Data Analytics using
+                                            Python</h5>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                            <a href="/Course/data-science-machine-learning-using-python-training-course-in-noida.html"
+                                class="CadAncor">
+                                <div style="height:370px !important" class="card new  d-none d-md-block">
+                                    <img src="/img/tools/Data-Science-Machine-Learning-using-Python-1.jpg"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In React js & Machine
+                                            Learning Using Python</h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
+
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="/Course/machine-learning-using-python-training-course-in-noida.html"
+                                class="CadAncor">
+                                <div style="height:370px !important" class="card  new  d-none d-md-block">
+                                    <img src="/img/tools/Machine-Learning-using-Python.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Machine Learning Using
+                                            Python</h5>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="cards-wrapper">
                             <a href="/Course/ai-using-python-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new">
-                                <img src="/img/tools/AI-using-Python-1.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course AI using Python</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new">
+                                    <img src="/img/tools/AI-using-Python-1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course AI using Python</h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
                             </a>
                             <a href="/Course/full-stack-with-nodejs-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new d-none d-md-block">
-                                <img src="/img/tools/full-stack-nodejs.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Full Stack with NodeJs
-                                    </h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new d-none d-md-block">
+                                    <img src="/img/tools/full-stack-nodejs.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Full Stack with NodeJs
+                                        </h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
                             </a>
                             <a href="/Course/python-full-stack-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new d-none d-md-block">
-                                <img src="/img/tools/Python-Full-Stack-1.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Python Full Stack</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new d-none d-md-block">
+                                    <img src="/img/tools/Python-Full-Stack-1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Python Full Stack</h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
                             </a>
-                            <a href="/Course/java-full-stack-using-react-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new d-none d-md-block">
-                                <img src="/img/tools/java-full-stack-react.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Java Full Stack using
-                                        React</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                            <a href="/Course/java-full-stack-using-react-training-course-in-noida.html"
+                                class="CadAncor">
+                                <div style="height:370px !important" class="card  new d-none d-md-block">
+                                    <img src="/img/tools/java-full-stack-react.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Java Full Stack using
+                                            React</h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="cards-wrapper">
                             <a href="/Course/mean-stack-development-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new">
-                                <img src="/img/tools/mean.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In MEAN</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new">
+                                    <img src="/img/tools/mean.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In MEAN</h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
                             </a>
                             <a href="/Course/mern-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new d-none d-md-block">
-                                <img src="/img/tools/mern.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In MERN</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new d-none d-md-block">
+                                    <img src="/img/tools/mern.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In MERN</h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
                             </a>
                             <a href="/Course/software-testing-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new d-none d-md-block">
-                                <img src="/img/tools/software-testing.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In software Testing</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new d-none d-md-block">
+                                    <img src="/img/tools/software-testing.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In software Testing</h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
                             <a href="/Course/manual-testing-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new d-none d-md-block">
-                                <img src="/img/tools/manual-testing.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Manual Testing</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new d-none d-md-block">
+                                    <img src="/img/tools/manual-testing.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Manual Testing</h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="cards-wrapper">
                             <a href="/Course/manual-selenium-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new">
-                                <img src="/img/tools/manaul-selenium.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course Manual + Selenium</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new">
+                                    <img src="/img/tools/manaul-selenium.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course Manual + Selenium</h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
                             <a href="/Course/digital-marketing-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new d-none d-md-block">
-                                <img src="/img/tools/Digital-Marketing.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Digital Marketing</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new d-none d-md-block">
+                                    <img src="/img/tools/Digital-Marketing.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Digital Marketing</h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
                             <a href="/Course/advance-digital-marketing-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new d-none d-md-block">
-                                <img src="/img/tools/Advance-Digital-Marketing.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Advance Digital Marketing
-                                    </h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new d-none d-md-block">
+                                    <img src="/img/tools/Advance-Digital-Marketing.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Advance Digital
+                                            Marketing
+                                        </h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                            <a href="/Course/seo-search-engine-optimization-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new d-none d-md-block">
-                                <img src="/img/tools/seo.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Search Engine Optimisation
-                                        (SEO)</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                            </a>
+                            <a href="/Course/seo-search-engine-optimization-training-course-in-noida.html"
+                                class="CadAncor">
+                                <div style="height:370px !important" class="card  new d-none d-md-block">
+                                    <img src="/img/tools/seo.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Search Engine
+                                            Optimisation
+                                            (SEO)</h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -4829,7 +4881,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                         <span>Connect with us for Counselling</span>
                         <div class="info-head"><i class="fa fa-phone"></i> Call or Whatsapp</div>
                         <div class="buttons btns">
-                            <a href="tel:+917701928515" target="_blank"  id="Btn">+91
+                            <a href="tel:+917701928515" target="_blank" id="Btn">+91
                                 7701928515</a>
                             <div class="buttons">
                                 <a onclick="showPopUpForm()" id="Btn"> Schedule a Demo Session Now</a>
@@ -4878,7 +4930,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
 
                                 <div class="input-section name-section">
                                     <label>Location</label>
-                                    <input type="text" name="location" onchange="setFormValue(this.name,this.value)"required>
+                                    <input type="text" name="location" onchange="setFormValue(this.name,this.value)"
+                                        required>
                                 </div>
 
                                 <!-- <div class="training-course-select-section">

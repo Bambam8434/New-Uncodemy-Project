@@ -103,17 +103,14 @@
     <div class="page-navigation"
         style="position: fixed; top:-2px; display: none; border-bottom: 1px solid black; z-index: 9; background-color: white; width: 100vw; padding: 10px;">
         <ul>
-            <li class="page-navigation-btn">Placed Student</li>
-            <li class="page-navigation-btn">Curriculum</li>
-
-            <li class="page-navigation-btn">Know Uncodemy</li>
-
-            <li class="page-navigation-btn">Instructors</li>
-            <li class="page-navigation-btn">Industry Project</li>
-
-            <li class="page-navigation-btn">Reviews</li>
-            <li class="page-navigation-btn">Special Schedule</li>
-            <a target="_blank" download onclick="showForm(), setDownload('DataScienceBtn')">
+            <li class="page-navigation-btn"data-target="placed-candidates">Placed Student</li>
+            <li class="page-navigation-btn"data-target="curriculum">Curriculum</li>
+            <li class="page-navigation-btn"data-target="know-uncodemy">Know Uncodemy</li>
+            <li class="page-navigation-btn"data-target="instructor">Instructors</li>
+            <li class="page-navigation-btn"data-target="industry-project">Industry Project</li>
+            <li class="page-navigation-btn"data-target="reviews">Reviews</li>
+            <li class="page-navigation-btn"data-target="schedules">Special Schedule</li>
+            <a target="_blank" download onclick="showForm(), setDownload('DSandABtn')">
                 <li class="page">Download Brochure</li>
             </a>
 
@@ -206,7 +203,7 @@
                                 font-weight: 500;
                                 font-size: 15px;
                                 text-decoration: none;
-                                cursor: pointer;" download onclick="showForm(), setDownload('DataScienceBtn')"
+                                cursor: pointer;" download onclick="showForm(), setDownload('DSandABtn')"
                                         id="Btn"> <img class="curri" src="/img/tools/download.svg" />Download
                                         Curriculum</button></a>
                                 <a> <button class="apply" style="background-color: #ff5421 !important; color:white !important;background-color: #ff5421 !important;
@@ -1000,7 +997,7 @@ font-weight: 500;" class=" ">Uncodemy, which is known for its advanced technical
                         </div>
                         <div class="big-box">
                             <ul>
-                                <li><img src="/img/tools.png" alt="15 Tools and Software - best tools for data science">
+                                <li><img src="/img/tools.png" alt="Tools logo">
                                 </li>
                                 <li>
                                     <span>15</span>
@@ -1010,7 +1007,7 @@ font-weight: 500;" class=" ">Uncodemy, which is known for its advanced technical
                         </div>
                     </div>
                     <button type="button" class="fill-btn" data-toggle="modal" download
-                        onclick="showForm(), setDownload('DataScienceBtn')">Download
+                        onclick="showForm(), setDownload('DSandABtn')">Download
                         Curriculum </button>
                 </div>
                 <div class="col-xl-4 col-lg-5 col-md-5 col-12 mobile-display-none">
@@ -1039,7 +1036,7 @@ font-weight: 500;" class=" ">Uncodemy, which is known for its advanced technical
                         </div>
                         <div class="sy-img-con">
                             <div class="syllabus-img">
-                                <img src="/img/tools.png" alt="15 Tools and Software - best tools for data science">
+                                <img src="/img/tools.png" alt="Tools logo">
                             </div>
                             <div class="syllabus-content">
                                 <span>15+</span>
@@ -1047,7 +1044,7 @@ font-weight: 500;" class=" ">Uncodemy, which is known for its advanced technical
                             </div>
                         </div>
                         <button type="button" class="down-cum" data-toggle="modal" download
-                            onclick="showForm(), setDownload('DataScienceBtn')">Download
+                            onclick="showForm(), setDownload('DSandABtn')">Download
                             Curriculum</button>
                     </div>
                 </div>

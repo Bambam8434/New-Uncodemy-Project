@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="/css/responsive2.css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
- <!--  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <!--  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <!------ Include the above in your HEAD tag ---------->
     <link rel="stylesheet" href="/css/placement.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
@@ -103,16 +103,13 @@
     <div class="page-navigation"
         style="position: fixed; top:-2px; display: none; border-bottom: 1px solid black; z-index: 9; background-color: white; width: 100vw; padding: 10px;">
         <ul>
-            <li class="page-navigation-btn">Placed Student</li>
-            <li class="page-navigation-btn">Curriculum</li>
-
-            <li class="page-navigation-btn">Know Uncodemy</li>
-
-            <li class="page-navigation-btn">Instructors</li>
-            <li class="page-navigation-btn">Industry Project</li>
-
-            <li class="page-navigation-btn">Reviews</li>
-            <li class="page-navigation-btn">Special Schedule</li>
+            <li class="page-navigation-btn"data-target="placed-candidates">Placed Student</li>
+            <li class="page-navigation-btn"data-target="curriculum">Curriculum</li>
+            <li class="page-navigation-btn"data-target="know-uncodemy">Know Uncodemy</li>
+            <li class="page-navigation-btn"data-target="instructor">Instructors</li>
+            <li class="page-navigation-btn"data-target="industry-project">Industry Project</li>
+            <li class="page-navigation-btn"data-target="reviews">Reviews</li>
+            <li class="page-navigation-btn"data-target="schedules">Special Schedule</li>
             <a target="_blank" download onclick="showForm(), setDownload('WebDesignBtn')">
                 <li class="page">Download Brochure</li>
             </a>
@@ -180,7 +177,7 @@
 
 
 
-                            <div class="Placement-training"> 
+                            <div class="Placement-training">
                                 <a> <button style="color: #ff5421 !important; background-color:transparent !important;
                                border: 1px solid #ff5421;
                                 margin-right: 0;
@@ -537,7 +534,7 @@
                             class="d-inline-block position-relative  text-capitalize mb-4">
                         </b></h2>
 
-                    
+
 
 
 
@@ -591,13 +588,13 @@ font-weight: 500;" class="py-3">Web Designing is the process of creating the vis
                   font-weight: 500;" class="py-3"> Let's take a look at the benefits of a web design course in Delhi,
                                 from Uncodemy. With Uncodemy, you'll enjoy the
                                 following Web Designing course benefits in Delhi:
-                                <ul class="Ulist">
+                            <ul class="Ulist">
                                 <li>100% career-focusedTraining. </li>
                                 <li>Faculty members who are experts in the field. </li>
                                 <li>Free trial classes are available. </li>
                                 <li>Over 135 batches completed. </li>
                                 <li>Highly qualified and certified professionals.</li>
-                                </ul>
+                            </ul>
 
 
 
@@ -605,14 +602,14 @@ font-weight: 500;" class="py-3">Web Designing is the process of creating the vis
                   text-align: start;
                   font-weight: 500;" class="py-3">Students complete projects and Interships, to gain practical
                                 experience. <br>
-                                                                
-                                <ul class="Ulist">
+
+                            <ul class="Ulist">
                                 <li>Students receiveTraining in both soft skills and hard skills. </li>
                                 <li>The faculty consists of experts in the field. </li>
                                 <li>Students attend grooming sessions to improve their professional image. </li>
                                 <li>Students are graded on their progress and placement potential. </li>
                                 <li>Students are given extensive interviewTraining.</li>
-                                </ul>
+                            </ul>
 
 
 
@@ -815,7 +812,7 @@ font-weight: 500;" class="py-3">Web Designing is the process of creating the vis
 
             <div class="section-title text-center position-relative mb-3">
                 <h2>Curriculums for Web Designing Training Course in Delhi</h2>
-                
+
                 <!-- <h6 style="color: #FF5421;" class="d-inline-block position-relative  text-capitalize mb-5">Tools and Technologies Coverd</h6> -->
             </div>
             <div class="row row-reverse">
@@ -942,7 +939,7 @@ font-weight: 500;" class="py-3">Web Designing is the process of creating the vis
                                                     <li>HTML Lists</li>
                                                     <li>HTML Blocks</li>
                                                     <li>HTML Layout </li>
-                                           
+
                                                     <li>HTML Responsive</li>
                                                     <li>HTML JavaScript</li>
                                                     <li>HTML Head</li>
@@ -1709,93 +1706,35 @@ font-weight: 500;" class="py-3">Web Designing is the process of creating the vis
 
                 <ul>
                     <li>
-                        <img src="/img/tools/Excel.jpg" alt="Excel">
-                        <h3>Excel</h3>
+                        <img src="/img/tools/html-editor-.png" alt="Html">
+                        <h3>Html</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Tableau.png" alt="Tableau">
-                        <h3>Tableau</h3>
+                        <img src="/img/tools/css.png" alt="Css">
+                        <h3>Css</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Power-BI-Symbol.png" alt="Power-Bi">
-                        <h3>Power-Bi</h3>
+                        <img src="/img/tools/javascript.png" alt="JavaScript">
+                        <h3>JavaScript</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/ggplot.png" alt="ggplot">
-                        <h3>ggplot</h3>
+                        <img src="/img/tools/jquery.png" alt="jQuery">
+                        <h3>jQuery</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Jupyter.png" alt="Jupyter">
-                        <h3>Jupyter</h3>
+                        <img src="/img/tools/ajax.png" alt="Ajax">
+                        <h3>Ajax</h3>
                     </li>
                     <li>
-                        <img src="/img/tools/Numpy .png" alt="Numpy">
-                        <h3>Numpy</h3>
+                        <img src="/img/tools/bootstrap.png" alt="Bootstrap">
+                        <h3>Bootstrap</h3>
                     </li>
                     <li>
-                        <img class="Python" src="/img/tools/Python.jpg" alt="Python">
-                        <h3>Python</h3>
+                        <img class="Python" src="/img/tools/react.png" alt="ReactJS">
+                        <h3>ReactJS</h3>
                     </li>
-                    <li>
-                        <img src="/img/tools/Pandas.png" alt="Pandas">
-                        <h3>Pandas</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/Seaborn .jpg" alt="Seaborn">
-                        <h3>Seaborn</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/looker.png" alt="Looker">
-                        <h3>Looker</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/Matplotlib-logo.png" alt="Matplotlib">
-                        <h3>Matplotlib</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/PyCharm.png" alt="PyCharm">
-                        <h3>PyCharm</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/Google Colab.jpg" alt="Google Colab">
-                        <h3>Google Colab</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/Anaconda.jpg" alt="Anaconda">
-                        <h3>Anaconda</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/NLTK.png" alt="NLTK">
-                        <h3>NLTK</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/Scikit-learn.png" alt="Scikit-learn">
-                        <h3>Scikit-learn</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/SQL.png" alt="SQL">
-                        <h3>SQL</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/MySql.png" alt="MySql">
-                        <h3>MySql</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/PostgreSQL.png" alt="PostgreSQL">
-                        <h3>PostgreSQL</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/ML.jpg" alt="ML">
-                        <h3>ML</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/Deep Learning.png" alt="Deep Learning">
-                        <h3>Deep Learning</h3>
-                    </li>
-                    <li>
-                        <img src="/img/tools/NLP.jpg" alt="NLP">
-                        <h3>NLP</h3>
-                    </li>
+
+
                 </ul>
 
                 <div class="apply-btn ">
@@ -1812,7 +1751,6 @@ font-weight: 500;" class="py-3">Web Designing is the process of creating the vis
       cursor: pointer;" id="apply-btn" onclick="showForm()" class="">Apply Now</button>
                 </div>
             </div>
-
 
 
 
@@ -2008,7 +1946,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                                 Data Analytics, Full Stack
                                 Development, Software Testing, Automation Testing, Business Analytics, Digital
                                 Marketing, AWS, Cloud Computing, Azure
-                               Training, PythonTraining, Artificial Intelligence, Machine Learning, Manual Testing and
+                                Training, PythonTraining, Artificial Intelligence, Machine Learning, Manual Testing and
                                 Search Engine Optimisation.
                             </p>
                         </div>
@@ -2197,8 +2135,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
     <div class="container contu">
 
         <!-- Your video element -->
-            <img class="why" src="/img/tools/animate.gif" alt="" muted loop>
-  
+        <img class="why" src="/img/tools/animate.gif" alt="" muted loop>
+
 
     </div>
 
@@ -2217,7 +2155,17 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
 
 
             <section style="background-color: none !important;" id="fees" class="pd">
-                <div style=" background-color:transparent" class="residents"><div class="container-fluid"><div class="row"><div class="col-xl-7 col-lg-6 col-md-6 col-12"><div class="place-heading col-flex"><h2 style="color:black;"> Uncodemy </h2><p class="Acce">Access unparalleled learning with live sessions, recordings, assignments, and live projects led by a top-tier mentor and industry expert trainer. Elevate your skills with the best-in-class educational content.</p><button style="color:rgb(247, 5, 5); " type="button" class="fill-btn" data-toggle="modal" onclick="showForm()">Apply Now</button>
+                <div style=" background-color:transparent" class="residents">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xl-7 col-lg-6 col-md-6 col-12">
+                                <div class="place-heading col-flex">
+                                    <h2 style="color:black;"> Uncodemy </h2>
+                                    <p class="Acce">Access unparalleled learning with live sessions, recordings,
+                                        assignments, and live projects led by a top-tier mentor and industry expert
+                                        trainer. Elevate your skills with the best-in-class educational content.</p>
+                                    <button style="color:rgb(247, 5, 5); " type="button" class="fill-btn"
+                                        data-toggle="modal" download onclick="showForm(), setDownload('WebDesignBtn')">Apply Now</button>
                                 </div>
                             </div>
                             <div class="col-xl-5 col-lg-6 col-md-6 col-12 ">
@@ -2302,21 +2250,22 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                             <div class="inst">
                                 <img style="height: 10rem !important; max-width: none !important;"
                                     src="/img/placement/sonal2.jpeg"
-                                    alt="Dr. Deepika Sharma -Training Head, DataTrained">
-                                <h3>Sonal </h3>
-                                <h3> Web Designing Development | Core & Advance Java | Spring MVC | Angular | Reactjs |
-                                    MySQL | Data
-                                    Visualization </h3>
+                                    alt="Dr. Deepika Sharma - Training Head, DataTrained">
+                                <h3>Ms. Sonal Rana</h3>
+                                <h3>Full Stack Development | Core & Advance Java | Spring MVC | Angular | Reactjs |
+                                    MySQL</h3>
                             </div>
                             <div class="post po">
                                 Professional Java trainer has extensive knowledge of Java programming combined with good
-                                presentation
+                                presentation and teaching abilities.
                                 <span class="dots">...</span>
-                                <span class="more">and teaching abilities. Has master’s degree in computer application,
-                                    strong understanding of Java Development, and over 8+ years of experience.
-                                    Skills Set: Java 8, J2EE, Spring Boot, Hibernate, JUnit, Maven Microservices,
-                                    Reactjs, and Angular.
-
+                                <span class="more">Has master’s degree in computer application, strong understanding of
+                                    Java Development, and over 8+ years of experience.
+                                    <div class="IMT">
+                                        <h3>Skills Set:</h3>
+                                        <p> Java 8, J2EE, Spring Boot, Hibernate, JUnit, Maven Microservices, Reactjs,
+                                            and Angular.</p>
+                                    </div>
 
 
 
@@ -2328,30 +2277,63 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
 
 
                     </div>
-
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="shadow">
                             <div class="inst">
                                 <img style="height: 10rem !important; max-width: none !important;"
-                                    src="/image/bambamkr.jpg" alt="Dr. Deepika Sharma -Training Head, DataTrained">
-                                <h3>Nikhil </h3>
-                                <h3> Senior Data Scientist at Yum | Data Scientist | Machine Learning | Data
-                                    Visualization | NLP | Financial Analytics</h3>
+                                    src="/image/rajesh.jpg" alt="Dr. Deepika Sharma - Training Head, DataTrained">
+                                <h3>Mr. Rajesh Kumar Mandal </h3>
+                                <h3> Full Stack Development | Express.js | React.js | Node.js | JavaScript | Python |
+                                    Django | Flask </h3>
                             </div>
                             <div class="post po">
-                                An enthusiastic, energetic, and self-motivated learner who believes in hard work as well
-                                as
+                                Mr. Rajesh, an experienced MERN Full Stack Developer, is proficient in building
+                                end-to-end applications using MongoDB, Express.js, React.js, and Node.js.
+
                                 <span class="dots">...</span>
-                                <span class="more">smart work. I believe in working smart rather than working hard. I
-                                    like to
-                                    explore new ideas and experiment with them and I am
-                                    interested in Python Programming Language. To describe myself in one word I can say
-                                    I have a great passion for Web Designing and its application in problem-solving,
-                                    which is backed with practical knowledge. My aim is to get a chance to prove myself
-                                    as an outstanding individual by working in a challenging environment that would aid
-                                    me in polishing my skills and abilities.
+                                <span class="more"> With a strong foundation in Frontend and Backend, and comprehensive
+                                    understanding of Python programming, and hands-on experience in developing scalable
+                                    applications. He holds a master’s degree in computer science and possesses over 10+
+                                    years of expertise.
+                                    <div class="IMT">
+                                        <h3>Skills Set:</h3>
+                                        <p> MongoDB, Express.js, React.js, Node.js, Python, JavaScript (ES6+), RESTful
+                                            APIs, Git.</p>
+                                    </div>
 
 
+
+                                </span>
+
+                                <a class="read re glow-on-hover glo navScollAt">Read more</a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="shadow">
+                            <div class="inst">
+                                <img style="height: 10rem !important; max-width: none !important;"
+                                    src="/image/bambam.jpg" alt="Dr. Deepika Sharma - Training Head, DataTrained">
+                                <h3>Mr. Bambam Kumar Yadav</h3>
+                                <h3> Full Stack Development | Express.js | React.js | Node.js | JavaScript | Python |
+                                    Django | Flask </h3>
+                            </div>
+                            <div class="post po">
+                                Mr. Bambam, an experienced Full stack, is proficient in building end-to-end applications
+                                using Frontend Javascript and Reactjs and Backend Nodejs.
+                                <span class="dots">...</span>
+                                <span class="more">With a strong foundation in Frontend and Backend, and comprehensive
+                                    understanding of Nodejs, and Python programming, and hands-on experience in
+                                    developing scalable applications.
+
+                                    <div class="IMT">
+                                        <h3>Skills Set:</h3>
+                                        <p> MongoDB, Express.js, React.js, Node.js, Python, JavaScript (ES6+), RESTful
+                                            APIs, Git. </p>
+                                    </div>
 
 
                                 </span>
@@ -2364,27 +2346,88 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
 
                     </div>
 
+
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="shadow">
                             <div class="inst">
                                 <img style="height: 10rem !important; max-width: none !important;"
-                                    src="/image/irshad.jpg" alt="Dr. Deepika Sharma -Training Head, DataTrained">
-                                <h3>Irshad Khan </h3>
-                                <h3> Web Designing | Machine Learning | Python | Statistical Modeling | Analytics|
-                                    Researcher | Applied Mathematics </h3>
+                                    src="/image/snehank.jpg" alt="Dr. Deepika Sharma - Training Head, DataTrained">
+                                <h3>Mr. Snehank Singh </h3>
+                                <h3>Wordpress Developer | Custom Plugin | Express.js | React.js | Node.js | JavaScript |
+                                </h3>
                             </div>
                             <div class="post po">
-                                Data scientist enthusiast with strong experience in using a variety of data mining/data
+                                Mr. Snehank, an experienced WordPress Developer and Full stack, is proficient in
+                                building end-to-end applications using Frontend Javascript, Reactjs, Backend Nodejs,
 
                                 <span class="dots">...</span>
-                                <span class="more">analysis methods, a variety of data tools, building and implementing
-                                    models,
-                                    using/creating algorithms, and creating/running simulations. with
-                                    extensive experience in solving many real-world business problems across different
-                                    domains through insights from predictive modeling, data processing, and data mining,
-                                    machine learning, and deep learning algorithms.
+                                <span class="more"> and the database MongoDB. With a strong foundation in WordPress,
+                                    Frontend, and Backend, and comprehensive understanding of Nodejs, and hands-on
+                                    experience in developing scalable applications.
+                                    <div class="IMT">
+                                        <h3>Skills Set:</h3>
+                                        <p> WordPress, Shopify, MongoDB, React.js, Node.js, JavaScript (ES6+),
+                                            RESTful APIs, Git.</p>
+                                    </div>
 
 
+
+                                </span>
+
+                                <a class="read re glow-on-hover glo navScollAt">Read more</a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="shadow">
+                            <div class="inst">
+                                <img style="height: 10rem !important; max-width: none !important;"
+                                    src="/image/pradyumn.jpg" alt="Dr. Deepika Sharma - Training Head, DataTrained">
+                                <h3>Mr. Pradyumn Singh</h3>
+                                <h3>Head of Training & Placement</h3>
+                            </div>
+                            <div class="post po">
+                                Pradyumn Singh, the Head of Training & Placement at Uncodemy. With 8 years of expertise,
+                                he has led Software Testing, Development,
+                                <span class="dots">...</span>
+                                <span class="more">and Digital Marketing teams. Currently, Pradyumn directs his focus on
+                                    ensuring top-quality training at Uncodemy and facilitating successful student
+                                    placements. A seasoned professional with a strategic vision, he plays a pivotal role
+                                    in shaping the educational and career paths of aspiring individuals at Uncodemy.
+
+
+
+
+                                </span>
+
+                                <a class="read re glow-on-hover glo navScollAt">Read more</a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="shadow">
+                            <div class="inst">
+                                <img style="height: 10rem !important; max-width: none !important;"
+                                    src="/image/trainer-priyanka.jpg"
+                                    alt="Dr. Deepika Sharma - Training Head, DataTrained">
+                                <h3>Ms. Priyanka</h3>
+                                <h3>Head of the HR & Placement </h3>
+                            </div>
+                            <div class="post po">
+                                Priyanka, the Head of the HR & Placement Department at Uncodemy. With a decade of
+                                experience, she has skillfully led the HR team, overseeing
+                                <span class="dots">...</span>
+                                <span class="more">training and recruitment. Currently, Priyanka dedicates her efforts
+                                    to streamlining interview-related requirements at Uncodemy, ensuring seamless
+                                    placements for students. Her extensive expertise and commitment contribute to
+                                    creating a supportive and conducive environment for professional growth and
+                                    success at Uncodemy.
 
 
                                 </span>
@@ -2415,14 +2458,13 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
     <div class="container-fluid  indus  containers " id="industry-project">
         <div class="container ">
             <div class="section-title text-center position-relative ">
-                
-<h2>Get a Real World Understanding Through <b style="color:#ff5421"
+
+                <h2>Get a Real World Understanding Through <b style="color:#ff5421"
                         class="d-inline-block position-relative  text-capitalize mb-3">Industry Projects</b></h2>
 
-<h6 style="color: #ff5421;"
-                                        class="d-inline-block position-relative  text-uppercase mb-5">Projects
-                                    </h6>
-                
+                <h6 style="color: #ff5421;" class="d-inline-block position-relative  text-uppercase mb-5">Projects
+                </h6>
+
                 <!-- <h6 style="color: #FF5421;" class="d-inline-block position-relative  text-capitalize mb-5">Tools and Technologies Coverd</h6> -->
             </div>
             <div class="project">
@@ -2579,8 +2621,9 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                                     <p style="color:black;"><span style="color:black;">We Provide EMI Facility for You
                                         </span></p>
                                     <p style="color:black;">Nothing Stops you from Learning</p>
-                                    <button onclick="showForm()" style="color:rgb(247, 5, 5); " type="button" class="fill-btn"
-                                        data-toggle="modal" data-target="#register-form">Apply Now</button>
+                                    <button onclick="showForm()" style="color:rgb(247, 5, 5); " type="button"
+                                        class="fill-btn" data-toggle="modal" data-target="#register-form">Apply
+                                        Now</button>
                                 </div>
                             </div>
                             <div class="col-xl-5 col-lg-6 col-md-6 col-12 ">
@@ -2640,7 +2683,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                                     well-rounded web designers who are
                                     prepared for the challenges of the job market. Along with these benefits unquote me
                                     also focuses on Web Designing
-                                   Training course with job placement in Delhitogether with other Web Designing course
+                                    Training course with job placement in Delhitogether with other Web Designing course
                                     benefits in Delhi which are
                                     mentioned below-
                                 </p>
@@ -2665,7 +2708,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                                             aria-controls="Classroom" role="tab" data-toggle="tab"><img class="im img1"
                                                 src="/img/tools/class.png"
                                                 alt="Internship - Web Designing Training in Delhi">Classroom
-                                           Training</a>
+                                            Training</a>
                                     </li>
 
 
@@ -2884,7 +2927,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                                                                 Students, who are looking for a job, enjoys several
                                                                 benefits while attending the classes of Uncodemy, the
                                                                 Web Designing
-                                                               Training institute in Delhi, such as, recruitment
+                                                                Training institute in Delhi, such as, recruitment
                                                                 incentives in the fields like software development,
                                                                 e-commerce etc.
 
@@ -2939,22 +2982,23 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                                                             in Delhi. <br>
                                                             Uncodemy’s Bootcamp to prepare every candidate for the real
                                                             world scenarios through-
-                                                            
+
                                                             <ul class="Ulist">
-                                                            <li>Paid Interships</li>
-                                                            <li>Volunteering</li>
-                                                        </ul>
+                                                                <li>Paid Interships</li>
+                                                                <li>Volunteering</li>
+                                                            </ul>
                                                             Chance to work on real projects of companies and
                                                             organisations to help each and every candidate in
                                                             understanding
                                                             pressures or maybe the loosen parts which needs to be
-                                                            tightened .  <br>
-                                                            Incentive to closely look at the case studies to boost confidence required for practicality.</li>
-                                                            
+                                                            tightened . <br>
+                                                            Incentive to closely look at the case studies to boost
+                                                            confidence required for practicality.</li>
+
 
                                                             <span class="dots">...</span>
                                                             <span class="more">
-                                                                 All these are enough to give your resume an edge to
+                                                                All these are enough to give your resume an edge to
                                                                 make you stand apart.<br>
 
                                                                 With Uncodemy's advanced Web Designing Training in
@@ -3004,7 +3048,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                                                             Designing Training course in DelhiUncodemy also focuses on
                                                             providing Interships to the
                                                             students who are receiving the advanced Web Designing
-                                                           Training in Delhi. Hence, the students can learn and earn at
+                                                            Training in Delhi. Hence, the students can learn and earn at
                                                             the
                                                             same time. <br>
                                                             Not only that, Uncodemy also has a provision of providing
@@ -3071,19 +3115,20 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                                                             gives them a competitive advantage in the job market. <br>
                                                             Programs that are included in the live projects, includes-
 
-                                                            
+
                                                             <ul class="Ulist">
-                                                           <li> Paid Interships</li> 
-                                                          <li>Volunteering </li>
-                                                        </ul>
-                                                          Chance to work on real projects of companies and
+                                                                <li> Paid Interships</li>
+                                                                <li>Volunteering </li>
+                                                            </ul>
+                                                            Chance to work on real projects of companies and
                                                             organisations to help each and every candidate in
                                                             understanding
-                                                            pressures or maybe the loosen parts which needs to be tight. <br>
-                                                            
-                                                         Incentive to closely look at the case studies to boost
+                                                            pressures or maybe the loosen parts which needs to be tight.
+                                                            <br>
+
+                                                            Incentive to closely look at the case studies to boost
                                                             confidence required for practicality.
-                                                        
+
 
 
                                                             <span class="dots">...</span>
@@ -3144,21 +3189,21 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                                                             institute in Delhi,
                                                             successfully land high salaried packages in top reputed
                                                             companies, as Uncodemy promises to give Web Designing
-                                                           Training
+                                                            Training
                                                             with job placement in Delhi. <br>
                                                             Are you curious to know how Uncodemy which is the best web
                                                             Designing Training course institute in Delhioperates to
                                                             assure valuable placements?
                                                             </p>
                                                             <ul class="Ulist">
- <li>Projects/internship</li>
- <li>Training soft skill and hard skill</li>
- <li>Expert mentors</li> 
- <li>Grooming sessions</li>
- <li>Placement grading</li>
- <li>Interview process</li>
- <li>Student placed</li>
-</ul>
+                                                                <li>Projects/internship</li>
+                                                                <li>Training soft skill and hard skill</li>
+                                                                <li>Expert mentors</li>
+                                                                <li>Grooming sessions</li>
+                                                                <li>Placement grading</li>
+                                                                <li>Interview process</li>
+                                                                <li>Student placed</li>
+                                                            </ul>
 
                                                             <span class="dots">...</span>
                                                             <span class="more">
@@ -3523,7 +3568,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
 
                                 <div class="input-section name-section">
                                     <label>Location</label>
-                                    <input type="text" name="location" onchange="setFormValue(this.name,this.value)"required>
+                                    <input type="text" name="location" onchange="setFormValue(this.name,this.value)"
+                                        required>
                                 </div>
 
                                 <!-- <div class="training-course-select-section">
@@ -3591,7 +3637,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                         <span>Connect with us for Counselling</span>
                         <div class="info-head"><i class="fa fa-phone"></i> Call or Whatsapp</div>
                         <div class="buttons btns">
-                            <a href="tel:+917701928515" target="_blank"  id="Btn">+91
+                            <a href="tel:+917701928515" target="_blank" id="Btn">+91
                                 7701928515</a>
                             <div class="buttons">
                                 <a onclick="showPopUpForm()" id="Btn"> Schedule a Demo Session Now</a>
@@ -3801,7 +3847,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                 <div class="post">
                     Uncodemy which is known to give the best Web Designing Training in Delhi not only focuses on web
                     designing as its core
-                   Training subject but also has expertise in the subjects like Data Science, Data Analytics, Full
+                    Training subject but also has expertise in the subjects like Data Science, Data Analytics, Full
                     Stack Development,
                     Software Testing, Automation Testing, Business Analytics, Digital Marketing, AWS, Cloud Computing,
                     AzureTraining,
@@ -3814,13 +3860,13 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                         projects to every Uncodemy
                         aspirant to work with full-confidence in real world.
                         Students at Uncodemy, gets chance to participate
-                            and interact with other students on various tasks and discussion to
-                            maintain a healthy learning experience.
+                        and interact with other students on various tasks and discussion to
+                        maintain a healthy learning experience.
 
-                            Also, Uncodemy understands the need of gaining knowledge before starting a career that’s why
-                            it’s the only name anybody
-                            could remember when it comes to affordable and quality Web Designing Training course
-                            provider in Delhi.
+                        Also, Uncodemy understands the need of gaining knowledge before starting a career that’s why
+                        it’s the only name anybody
+                        could remember when it comes to affordable and quality Web Designing Training course
+                        provider in Delhi.
 
 
 
@@ -3868,14 +3914,14 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
 
 
 
-                         <ul class="Ulist">
-                         <li>Reasonable price </li>
-                        <li>Graduates, undergraduates, post graduates anybody can apply.</li> 
-                        <li>Guidance even after the course completion. </li>
-                        <li>One-on-One group discussions with alike students. </li>
-                        <li>Regular career counselling.</li> 
-                        <li>Online/offline sessions.</li>
-                        </ul> 
+                        <ul class="Ulist">
+                            <li>Reasonable price </li>
+                            <li>Graduates, undergraduates, post graduates anybody can apply.</li>
+                            <li>Guidance even after the course completion. </li>
+                            <li>One-on-One group discussions with alike students. </li>
+                            <li>Regular career counselling.</li>
+                            <li>Online/offline sessions.</li>
+                        </ul>
 
 
 
@@ -4091,7 +4137,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                         not the only important factor. Another important factor is the quality of theTraining provider.
                         There are many web
                         design Training providers in Delhi, and not all of them are created equal. When choosing a
-                       Training provider, it's
+                        Training provider, it's
                         important to consider factors such as the experience and qualifications of the instructors, the
                         quality of the
                         curriculum, and the support and resources provided to students. These factors can have a
@@ -4121,21 +4167,22 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                     <span class="dots">...</span>
                     <span class="more"> But there is a special provision you will get, if you become a part of Uncodemy
                         and decide to pursue your Web Designing
-                       Training in Delhiwith us. The working students and the students who for some reason cannot
+                        Training in Delhiwith us. The working students and the students who for some reason cannot
                         sustain standard offered web
                         designing course duration in Delhican go for special batches with the flexible schedules.
 
-                        <p class="graph" style="text-align: justify;"><b>On top of that you can also enjoy the additional
-                            Web Designing course benefits in Delhi-</b>
+                        <p class="graph" style="text-align: justify;"><b>On top of that you can also enjoy the
+                                additional
+                                Web Designing course benefits in Delhi-</b>
                         </p>
 
 
 
-                                                <ul class="Ulist">
-                        <li>100% career disposedTraining </li>
-                        <li>Industry oracle Faculties </li>
-                        <li>Demo Class Obtainable at no hidden cost. </li>
-                        <li>Certified Experts with High Grade.</li>
+                        <ul class="Ulist">
+                            <li>100% career disposedTraining </li>
+                            <li>Industry oracle Faculties </li>
+                            <li>Demo Class Obtainable at no hidden cost. </li>
+                            <li>Certified Experts with High Grade.</li>
                         </ul>
 
 
@@ -4162,10 +4209,10 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                     <span class="more">
 
                         <p class="graph" style="text-align: justify;">
-                                                        <ul class="Ulist">
+                        <ul class="Ulist">
                             <li>100% placement guarantee </li>
-                            <li>Constant support of mentors till you get a dream job.</li> 
-                            <li>Availability of professionals even after the session through chat or call process</li> 
+                            <li>Constant support of mentors till you get a dream job.</li>
+                            <li>Availability of professionals even after the session through chat or call process</li>
                             <li>Personalised tutorials </li>
                             <li>Company referrals </li>
                             <li>Live sessions with alumni </li>
@@ -4173,7 +4220,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                             <li>Case studies with the help of professionals together with fellow students </li>
                             <li>Regular tests for strong base and effective learning. </li>
                             <li>Option to choose from online and offline sessions </li>
-                            </ul>
+                        </ul>
 
                         </p>
 
@@ -4227,14 +4274,14 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                         changing world of web design. The certifications you will receive comes with the association
                         where the below mentioned
                         reputable bodies- <br>
- <p class="graph" style="text-align: justify;">
+                        <p class="graph" style="text-align: justify;">
 
 
                         <ul class="Ulist">
                             <li>ISO </li>
-                            <li>NASSCOM</li> 
+                            <li>NASSCOM</li>
                             <li>Skill India </li>
-                                </ul>
+                        </ul>
 
                         </p>
 
@@ -4258,14 +4305,17 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                     <span class="dots">...</span>
                     <span class="more">Programs that are included in the live projects, includes-<br>
 
-                        
-                       <ul class="Ulist">
-                        <li>Paid Interships </li>
-                        <li>Volunteering </li>
-                        <li>Chance to work on real projects of companies and organisations to help each and every candidate in understanding pressures or maybe the loosen parts which needs to be tight. </li>
-                        <li>Incentive to closely look at the case studies to boost confidence required for practicality.</li>
+
+                        <ul class="Ulist">
+                            <li>Paid Interships </li>
+                            <li>Volunteering </li>
+                            <li>Chance to work on real projects of companies and organisations to help each and every
+                                candidate in understanding pressures or maybe the loosen parts which needs to be tight.
+                            </li>
+                            <li>Incentive to closely look at the case studies to boost confidence required for
+                                practicality.</li>
                         </ul>
-                        
+
 
 
 
@@ -4618,7 +4668,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                                                         it's important to note that salaries for developers with more
                                                         experience and skills can be significantly higher than this and
                                                         you can boost your value by doing the Web Designing development
-                                                       Training course in Delhiwith the help of industry expert
+                                                        Training course in Delhiwith the help of industry expert
                                                         trainers of Uncodemy. Additionally, salaries in larger cities
                                                         and at larger companies can also be higher. Overall, the lowest
                                                         salary a Web Designing developer can make will depend on a
@@ -4970,14 +5020,14 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="cards-wrapper  ">
-                            <a  href="/Course/python-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card new  ">
-                                <img src="/img/tools/python1.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Python</h5>
+                            <a href="/Course/python-training-course-in-noida.html" class="CadAncor">
+                                <div style="height:370px !important" class="card new  ">
+                                    <img src="/img/tools/python1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Python</h5>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
                             <div style="height:370px !important" class="card new  d-none d-mNd-block">
                                 <img src="/img/tools/data-analytics-using-Python.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">Python</h5>
@@ -4986,175 +5036,184 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
 
                                 </div>
                             </div>
-                            <a href="/Course/data-science-machine-learning-using-python-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card new  d-none d-md-block">
-                                <img src="/img/tools/Data-Science-Machine-Learning-using-Python-1.jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Web-Designing</h5>
-                                    <!-- <p class="card-text
+                            <a href="/Course/data-science-machine-learning-using-python-training-course-in-noida.html"
+                                class="CadAncor">
+                                <div style="height:370px !important" class="card new  d-none d-md-block">
+                                    <img src="/img/tools/Data-Science-Machine-Learning-using-Python-1.jpg"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Web-Designing</h5>
+                                        <!-- <p class="card-text
                                         ">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
                             </a>
-                            <a href="/Course/machine-learning-using-python-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new  d-none d-md-block">
-                                <img src="/img/tools/Machine-Learning-using-Python.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Machine Learning Using
-                                        Python</h5>
+                            <a href="/Course/machine-learning-using-python-training-course-in-noida.html"
+                                class="CadAncor">
+                                <div style="height:370px !important" class="card  new  d-none d-md-block">
+                                    <img src="/img/tools/Machine-Learning-using-Python.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Machine Learning Using
+                                            Python</h5>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="cards-wrapper">
                             <a href="/Course/ai-using-python-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new">
-                                <img src="/img/tools/AI-using-Python-1.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course AI using Python</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new">
+                                    <img src="/img/tools/AI-using-Python-1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course AI using Python</h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
                             </a>
                             <a href="/Course/full-stack-with-nodejs-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new d-none d-md-block">
-                                <img src="/img/tools/full-stack-nodejs.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Web Designing with NodeJs
-                                    </h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new d-none d-md-block">
+                                    <img src="/img/tools/full-stack-nodejs.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Web Designing with
+                                            NodeJs
+                                        </h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
                             </a>
                             <a href="/Course/python-full-stack-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new d-none d-md-block">
-                                <img src="/img/tools/Python-Full-Stack-1.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Python Web Designing</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new d-none d-md-block">
+                                    <img src="/img/tools/Python-Full-Stack-1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Python Web Designing
+                                        </h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
                             </a>
-                            <a href="/Course/java-full-stack-using-react-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new d-none d-md-block">
-                                <img src="/img/tools/java-full-stack-react.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Web Designing </h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                            <a href="/Course/java-full-stack-using-react-training-course-in-noida.html"
+                                class="CadAncor">
+                                <div style="height:370px !important" class="card  new d-none d-md-block">
+                                    <img src="/img/tools/java-full-stack-react.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Web Designing </h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="cards-wrapper">
                             <a href="/Course/mean-stack-development-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new">
-                                <img src="/img/tools/mean.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In MEAN</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new">
+                                    <img src="/img/tools/mean.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In MEAN</h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
                             </a>
                             <a href="/Course/mern-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new d-none d-md-block">
-                                <img src="/img/tools/mern.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In MERN</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new d-none d-md-block">
+                                    <img src="/img/tools/mern.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In MERN</h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
                             </a>
                             <a href="/Course/software-testing-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new d-none d-md-block">
-                                <img src="/img/tools/software-testing.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In software Testing</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new d-none d-md-block">
+                                    <img src="/img/tools/software-testing.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In software Testing</h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
                             <a href="/Course/manual-testing-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new d-none d-md-block">
-                                <img src="/img/tools/manual-testing.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Manual Testing</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new d-none d-md-block">
+                                    <img src="/img/tools/manual-testing.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Manual Testing</h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="cards-wrapper">
                             <a href="/Course/manual-selenium-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new">
-                                <img src="/img/tools/manaul-selenium.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course Manual + Selenium</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new">
+                                    <img src="/img/tools/manaul-selenium.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course Manual + Selenium</h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
                             <a href="/Course/digital-marketing-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new d-none d-md-block">
-                                <img src="/img/tools/Digital-Marketing.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Digital Marketing</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new d-none d-md-block">
+                                    <img src="/img/tools/Digital-Marketing.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Digital Marketing</h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
                             <a href="/Course/advance-digital-marketing-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new d-none d-md-block">
-                                <img src="/img/tools/Advance-Digital-Marketing.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Advance Digital Marketing
-                                    </h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                                <div style="height:370px !important" class="card  new d-none d-md-block">
+                                    <img src="/img/tools/Advance-Digital-Marketing.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Advance Digital
+                                            Marketing
+                                        </h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                            <a href="/Course/seo-search-engine-optimization-training-course-in-noida.html" class="CadAncor">
-                            <div style="height:370px !important" class="card  new d-none d-md-block">
-                                <img src="/img/tools/seo.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Professional Certificate Course In Search Engine Optimisation
-                                        (SEO)</h5>
-                                    <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
-                                    <!-- <a href="#" class="btn btn-primary"></a> -->
+                            </a>
+                            <a href="/Course/seo-search-engine-optimization-training-course-in-noida.html"
+                                class="CadAncor">
+                                <div style="height:370px !important" class="card  new d-none d-md-block">
+                                    <img src="/img/tools/seo.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Professional Certificate Course In Search Engine
+                                            Optimisation
+                                            (SEO)</h5>
+                                        <!-- <p class="card-text">Class Starts: 6 Jun, 2023 | Duration: 11 Months -->
+                                        <!-- <a href="#" class="btn btn-primary"></a> -->
 
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -5220,7 +5279,7 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
                         <span>Connect with us for Counselling</span>
                         <div class="info-head"><i class="fa fa-phone"></i> Call or Whatsapp</div>
                         <div class="buttons btns">
-                            <a href="tel:+917701928515" target="_blank"  id="Btn">+91
+                            <a href="tel:+917701928515" target="_blank" id="Btn">+91
                                 7701928515</a>
                             <div class="buttons">
                                 <a onclick="showPopUpForm()" id="Btn"> Schedule a Demo Session Now</a>
@@ -5269,7 +5328,8 @@ height: 100px  ; max-width: 100% !important; border-radius: 3px;  background-col
 
                                 <div class="input-section name-section">
                                     <label>Location</label>
-                                    <input type="text" name="location" onchange="setFormValue(this.name,this.value)"required>
+                                    <input type="text" name="location" onchange="setFormValue(this.name,this.value)"
+                                        required>
                                 </div>
 
                                 <!-- <div class="training-course-select-section">

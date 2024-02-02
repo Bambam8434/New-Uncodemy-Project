@@ -29,6 +29,9 @@
 }
 }
 @media screen and (max-width: 900px) {
+  .ULI .dropdown {
+    top: -236px !important;
+  }
   .long {
     height: 31px !important;
     top: -12px !important;
@@ -143,7 +146,7 @@
     margin: 0 -45px;
   }
   .course-right-section {
-    height: 45vh;
+    height: 480px;
     overflow-y: scroll !important;
   }
   .corp-banner-container {
@@ -207,7 +210,7 @@
   }
   .place {
     width: 100%;
-    height: 9rem;
+    height: auto !important;
   }
   .footer-main-form-container .form-header-container .header-section {
     margin: 0 0 36px !important;
@@ -615,7 +618,7 @@
   }
   .glo {
     font-size: 9px;
-    margin: 5px 0 0;
+    margin: 2px 0 8px;
     padding: 0;
   }
   .thum {
@@ -636,7 +639,7 @@
   }
   .place {
     width: 100%;
-    height: 8rem;
+    height:auto !important;
   }
   .course span {
     width: 125px;
@@ -746,16 +749,15 @@
   .navigation-section ul {
     flex-direction: column;
     row-gap: 30px !important;
+    /* row-gap: 20px !important; */
 
   }
   .ULI {
     position: relative !important;
   }
-  .ULI .dropdown {
-    top: 40px !important;
-  }
+ 
   .course-left-section ul {
-    row-gap: 12px !important;
+    row-gap: 20px !important;
   }
   .navigation-container {
     position: absolute;
@@ -793,17 +795,19 @@
     cursor: pointer;
   }
   .dropdown {
-    top: 165px;
-    align-items: center;
+    top: 0px;
     justify-content: center;
     background: #f6f6f6;
     color: #fff;
     padding: 0;
     border: none;
     z-index: 1000;
-    height: auto;
-    width: auto;
+    height: 660px;
+    /* width:auto; */
+    width:100%;
   }
+
+
   .TRAI-ning {
     top: 275px;
     width: 100vw;
@@ -815,12 +819,10 @@
     overflow-x: scroll !important;
   }
   .course-left-section ul li {
-    padding-left: 10px;
     border: none;
     font-size: 14px;
     color: #000;
-    font-weight: 100 !important;
-    text-align: initial;
+    text-align:center;
     margin-left: 0;
   }
   .course-img {
@@ -955,7 +957,7 @@
   }
   .banner-left-box {
     padding: 0 0 0 15px;
-    /* margin: 0 0 0 -70px; */
+    margin: 0 0 0 -70px;
   }
   .career-main-container {
     padding: 0 0 0 16px;
